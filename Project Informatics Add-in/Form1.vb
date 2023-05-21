@@ -1,26 +1,43 @@
-﻿Imports System.Windows.Forms
+﻿Imports Microsoft.Office.Tools.Ribbon
 
 Public Class Form1
-    Dim Project As String
 
-    Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk
+    Private Sub Form1_Activated(sender As Object, e As EventArgs) Handles Me.Load
+
+        Label2.Text = CStr(Globals.ThisAddIn.Count_tasks(Globals.ThisAddIn.Application.ActiveProject))
+        Label4.Text = CStr(Globals.ThisAddIn.Count_tasksover25(Globals.ThisAddIn.Application.ActiveProject))
+        Label10.Text = CStr(Globals.ThisAddIn.C_NoSuccessor(Globals.ThisAddIn.Application.ActiveProject))
+        Label12.Text = CStr(Globals.ThisAddIn.C_NoPredecessor(Globals.ThisAddIn.Application.ActiveProject))
+        Label14.Text = CStr(Globals.ThisAddIn.C_Linkstosummarytasks(Globals.ThisAddIn.Application.ActiveProject))
+        Label26.Text = CStr(Globals.ThisAddIn.C_AsLateaspossible(Globals.ThisAddIn.Application.ActiveProject))
+        Label28.Text = CStr(Globals.ThisAddIn.C_MustStartOn(Globals.ThisAddIn.Application.ActiveProject))
+        Label30.Text = CStr(Globals.ThisAddIn.C_MustFinishOn(Globals.ThisAddIn.Application.ActiveProject))
+        Label32.Text = CStr(Globals.ThisAddIn.C_StartNoEarlierThan(Globals.ThisAddIn.Application.ActiveProject))
+        Label34.Text = CStr(Globals.ThisAddIn.C_StartNoLaterThan(Globals.ThisAddIn.Application.ActiveProject))
+        Label36.Text = CStr(Globals.ThisAddIn.C_FinishNoEarlierThan(Globals.ThisAddIn.Application.ActiveProject))
+        Label38.Text = CStr(Globals.ThisAddIn.C_FinishNoLaterThan(Globals.ThisAddIn.Application.ActiveProject))
+        Label16.Text = Globals.ThisAddIn.LagType(Globals.ThisAddIn.Application.ActiveProject)
+
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        'לפתוח קובץ פרןיקט 
-        'סינון להיות רק סוג קובץ של פרויקט
-        OpenFileDialog1.Filter = "Projects | *.mpp"
-        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
-            TextBox1.Text = OpenFileDialog1.FileName
-            Project = OpenFileDialog1.FileName
-            Button2.Show()
+    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
 
-
-        End If
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.Close()
+    Private Sub TableLayoutPanel1_Paint(sender As Object, e As Windows.Forms.PaintEventArgs) Handles TableLayoutPanel1.Paint
+
+    End Sub
+
+    Private Sub Label42_Click(sender As Object, e As EventArgs) Handles Label42.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label14_Click(sender As Object, e As EventArgs) Handles Label14.Click
+
     End Sub
 End Class
