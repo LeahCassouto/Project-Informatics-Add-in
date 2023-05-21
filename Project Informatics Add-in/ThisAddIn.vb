@@ -3,30 +3,71 @@
 Public Class ThisAddIn
 
 
-    Public Function LagType(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
-        Dim TaskDep As Integer
+    'Public Function LagType(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As String
+    '    Dim TaskDep As String
+    '    Dim project As Microsoft.Office.Interop.MSProject.Project
+    '    project = pj
+    '    TaskDep = project.Tasks(5).TaskDependencies(1).Type
+    '    Return TaskDep
+    'End Function
+
+    Public Function C_StartFinish(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
         Dim project As Microsoft.Office.Interop.MSProject.Project
+        Dim x_task As Microsoft.Office.Interop.MSProject.Task
+        Dim P As Microsoft.Office.Interop.MSProject.TaskDependency
         project = pj
-        TaskDep = project.Tasks(5).TaskDepencies(1).GetType
-        Return TaskDep
+        Dim task_count As Double = 0
+        For Each x_task In project.Tasks
+
+            For Each Tdep In x_task.TaskDependencies
+                If Tdep.Type = 2 Then
+                    task_count = task_count + 1
+
+                End If
+            Next
+
+        Next
+
+
+        Return task_count / 2
     End Function
 
-    'Public Function C_StartFinish(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
-    '    Dim project As Microsoft.Office.Interop.MSProject.Project
-    '    Dim x_task As Microsoft.Office.Interop.MSProject.Task
-    '    Dim TaskDep As Microsoft.Office.Interop.MSProject.TaskDependencies
-    '    project = pj
-    '    Dim OneNum As Double = 0
-    '    Dim task_count As Double = 0
-    '    For i As Integer = 1 To project.Tasks.Count
-    '        For Each TaskDep In project.Tasks(i).TaskDependencies
-    '            If TaskDep.
-    '        Next
-    '    Next
+    Public Function C_StartStart(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
+        Dim project As Microsoft.Office.Interop.MSProject.Project
+        Dim x_task As Microsoft.Office.Interop.MSProject.Task
+        Dim P As Microsoft.Office.Interop.MSProject.TaskDependency
+        project = pj
+        Dim task_count As Double = 0
+        For Each x_task In project.Tasks
 
+            For Each Tdep In x_task.TaskDependencies
+                If Tdep.Type = 3 Then
+                    task_count = task_count + 1
 
-    '    Return task_count
-    'End Function
+                End If
+            Next
+
+        Next
+        Return task_count / 2
+    End Function
+
+    Public Function C_FinishFinish(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
+        Dim project As Microsoft.Office.Interop.MSProject.Project
+        Dim x_task As Microsoft.Office.Interop.MSProject.Task
+        Dim P As Microsoft.Office.Interop.MSProject.TaskDependency
+        project = pj
+        Dim task_count As Double = 0
+        For Each x_task In project.Tasks
+
+            For Each Tdep In x_task.TaskDependencies
+                If Tdep.Type = 0 Then
+                    task_count = task_count + 1
+
+                End If
+            Next
+        Next
+        Return task_count / 2
+    End Function
 
 
     Public Function C_NoSuccessor(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer

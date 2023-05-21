@@ -337,6 +337,7 @@ Partial Class Form1
         'Label20
         '
         Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label20.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
@@ -345,7 +346,7 @@ Partial Class Form1
         Me.Label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label20.Size = New System.Drawing.Size(177, 30)
         Me.Label20.TabIndex = 18
-        Me.Label20.Text = "צריך לחשב"
+        Me.Label20.Text = "מסודר"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label19
@@ -365,6 +366,7 @@ Partial Class Form1
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label18.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Black
@@ -373,12 +375,13 @@ Partial Class Form1
         Me.Label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label18.Size = New System.Drawing.Size(177, 30)
         Me.Label18.TabIndex = 17
-        Me.Label18.Text = "צריך לחשב"
+        Me.Label18.Text = "מסודר"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label16
         '
         Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label16.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
@@ -387,7 +390,7 @@ Partial Class Form1
         Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label16.Size = New System.Drawing.Size(177, 30)
         Me.Label16.TabIndex = 15
-        Me.Label16.Text = "צריך לחשב"
+        Me.Label16.Text = "מסודר"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label14
