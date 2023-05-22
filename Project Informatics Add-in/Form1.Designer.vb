@@ -26,30 +26,10 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -66,6 +46,26 @@ Partial Class Form1
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -173,182 +173,6 @@ Partial Class Form1
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(501, 631)
         Me.TableLayoutPanel1.TabIndex = 2
         '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label42.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(3, 600)
-        Me.Label42.Name = "Label42"
-        Me.Label42.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label42.Size = New System.Drawing.Size(177, 31)
-        Me.Label42.TabIndex = 40
-        Me.Label42.Text = "צריך לחשב"
-        Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label40.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.ForeColor = System.Drawing.Color.Black
-        Me.Label40.Location = New System.Drawing.Point(3, 570)
-        Me.Label40.Name = "Label40"
-        Me.Label40.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label40.Size = New System.Drawing.Size(177, 30)
-        Me.Label40.TabIndex = 38
-        Me.Label40.Text = "צריך לחשב"
-        Me.Label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label38.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label38.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.ForeColor = System.Drawing.Color.Black
-        Me.Label38.Location = New System.Drawing.Point(3, 540)
-        Me.Label38.Name = "Label38"
-        Me.Label38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label38.Size = New System.Drawing.Size(177, 30)
-        Me.Label38.TabIndex = 36
-        Me.Label38.Text = "מסודר"
-        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label36.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label36.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.Color.Black
-        Me.Label36.Location = New System.Drawing.Point(3, 510)
-        Me.Label36.Name = "Label36"
-        Me.Label36.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label36.Size = New System.Drawing.Size(177, 30)
-        Me.Label36.TabIndex = 34
-        Me.Label36.Text = "מסודר"
-        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label34.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label34.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.ForeColor = System.Drawing.Color.Black
-        Me.Label34.Location = New System.Drawing.Point(3, 480)
-        Me.Label34.Name = "Label34"
-        Me.Label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label34.Size = New System.Drawing.Size(177, 30)
-        Me.Label34.TabIndex = 32
-        Me.Label34.Text = "מסודר"
-        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label32.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label32.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.Black
-        Me.Label32.Location = New System.Drawing.Point(3, 450)
-        Me.Label32.Name = "Label32"
-        Me.Label32.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label32.Size = New System.Drawing.Size(177, 30)
-        Me.Label32.TabIndex = 30
-        Me.Label32.Text = "מסודר"
-        Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label30.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label30.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(3, 420)
-        Me.Label30.Name = "Label30"
-        Me.Label30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label30.Size = New System.Drawing.Size(177, 30)
-        Me.Label30.TabIndex = 28
-        Me.Label30.Text = "מסודר"
-        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label28.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label28.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.Black
-        Me.Label28.Location = New System.Drawing.Point(3, 390)
-        Me.Label28.Name = "Label28"
-        Me.Label28.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label28.Size = New System.Drawing.Size(177, 30)
-        Me.Label28.TabIndex = 26
-        Me.Label28.Text = "מסודר"
-        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label26.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label26.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.ForeColor = System.Drawing.Color.Black
-        Me.Label26.Location = New System.Drawing.Point(3, 360)
-        Me.Label26.Name = "Label26"
-        Me.Label26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label26.Size = New System.Drawing.Size(177, 30)
-        Me.Label26.TabIndex = 24
-        Me.Label26.Text = "מסודר"
-        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label24.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(3, 330)
-        Me.Label24.Name = "Label24"
-        Me.Label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label24.Size = New System.Drawing.Size(177, 30)
-        Me.Label24.TabIndex = 22
-        Me.Label24.Text = "צריך לחשב"
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label22.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(3, 300)
-        Me.Label22.Name = "Label22"
-        Me.Label22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label22.Size = New System.Drawing.Size(177, 30)
-        Me.Label22.TabIndex = 20
-        Me.Label22.Text = "צריך לחשב  "
-        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label20.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(3, 270)
-        Me.Label20.Name = "Label20"
-        Me.Label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label20.Size = New System.Drawing.Size(177, 30)
-        Me.Label20.TabIndex = 18
-        Me.Label20.Text = "מסודר"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Label19
         '
         Me.Label19.AutoSize = True
@@ -363,81 +187,6 @@ Partial Class Form1
         Me.Label19.Text = "כמות סס: סיים-סיים"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label18.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Black
-        Me.Label18.Location = New System.Drawing.Point(3, 240)
-        Me.Label18.Name = "Label18"
-        Me.Label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label18.Size = New System.Drawing.Size(177, 30)
-        Me.Label18.TabIndex = 17
-        Me.Label18.Text = "מסודר"
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label16.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(3, 210)
-        Me.Label16.Name = "Label16"
-        Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label16.Size = New System.Drawing.Size(177, 30)
-        Me.Label16.TabIndex = 15
-        Me.Label16.Text = "מסודר"
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label14.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(3, 180)
-        Me.Label14.Name = "Label14"
-        Me.Label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label14.Size = New System.Drawing.Size(177, 30)
-        Me.Label14.TabIndex = 13
-        Me.Label14.Text = "מסודר"
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label12.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(3, 150)
-        Me.Label12.Name = "Label12"
-        Me.Label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label12.Size = New System.Drawing.Size(177, 30)
-        Me.Label12.TabIndex = 11
-        Me.Label12.Text = "מסודר"
-        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label10.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(3, 120)
-        Me.Label10.Name = "Label10"
-        Me.Label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label10.Size = New System.Drawing.Size(177, 30)
-        Me.Label10.TabIndex = 9
-        Me.Label10.Text = "מסודר"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -450,35 +199,6 @@ Partial Class Form1
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "כמות פעולות משכים מעל 25 ימי עבודה "
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label4.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 30)
-        Me.Label4.Name = "Label4"
-        Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label4.Size = New System.Drawing.Size(177, 30)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "מסודר"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.IndianRed
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label6.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(3, 60)
-        Me.Label6.Name = "Label6"
-        Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label6.Size = New System.Drawing.Size(177, 30)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "צריך לשאול את איציק"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
@@ -506,21 +226,6 @@ Partial Class Form1
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "פעולות מתוזמנות בעבר ולא הסתיימו "
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.IndianRed
-        Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label8.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(3, 90)
-        Me.Label8.Name = "Label8"
-        Me.Label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label8.Size = New System.Drawing.Size(177, 30)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "צריך לשאול את איציק"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label9
         '
@@ -745,6 +450,305 @@ Partial Class Form1
         Me.Label41.TabIndex = 39
         Me.Label41.Text = "FLOAT שלילי"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label4.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(3, 30)
+        Me.Label4.Name = "Label4"
+        Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label4.Size = New System.Drawing.Size(177, 30)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "מסודר"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.IndianRed
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label6.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(3, 60)
+        Me.Label6.Name = "Label6"
+        Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label6.Size = New System.Drawing.Size(177, 30)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "צריך לשאול את איציק"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.IndianRed
+        Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label8.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(3, 90)
+        Me.Label8.Name = "Label8"
+        Me.Label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label8.Size = New System.Drawing.Size(177, 30)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "צריך לשאול את איציק"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label10.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(3, 120)
+        Me.Label10.Name = "Label10"
+        Me.Label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label10.Size = New System.Drawing.Size(177, 30)
+        Me.Label10.TabIndex = 9
+        Me.Label10.Text = "מסודר"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label12.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label12.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Black
+        Me.Label12.Location = New System.Drawing.Point(3, 150)
+        Me.Label12.Name = "Label12"
+        Me.Label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label12.Size = New System.Drawing.Size(177, 30)
+        Me.Label12.TabIndex = 11
+        Me.Label12.Text = "מסודר"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label14.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.Color.Black
+        Me.Label14.Location = New System.Drawing.Point(3, 180)
+        Me.Label14.Name = "Label14"
+        Me.Label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label14.Size = New System.Drawing.Size(177, 30)
+        Me.Label14.TabIndex = 13
+        Me.Label14.Text = "מסודר"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label16.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.Color.Black
+        Me.Label16.Location = New System.Drawing.Point(3, 210)
+        Me.Label16.Name = "Label16"
+        Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label16.Size = New System.Drawing.Size(177, 30)
+        Me.Label16.TabIndex = 15
+        Me.Label16.Text = "מסודר"
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label18.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.Black
+        Me.Label18.Location = New System.Drawing.Point(3, 240)
+        Me.Label18.Name = "Label18"
+        Me.Label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label18.Size = New System.Drawing.Size(177, 30)
+        Me.Label18.TabIndex = 17
+        Me.Label18.Text = "מסודר"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label20.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Black
+        Me.Label20.Location = New System.Drawing.Point(3, 270)
+        Me.Label20.Name = "Label20"
+        Me.Label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label20.Size = New System.Drawing.Size(177, 30)
+        Me.Label20.TabIndex = 18
+        Me.Label20.Text = "מסודר"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label22.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label22.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Black
+        Me.Label22.Location = New System.Drawing.Point(3, 300)
+        Me.Label22.Name = "Label22"
+        Me.Label22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label22.Size = New System.Drawing.Size(177, 30)
+        Me.Label22.TabIndex = 20
+        Me.Label22.Text = "מסודר"
+        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label24.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Black
+        Me.Label24.Location = New System.Drawing.Point(3, 330)
+        Me.Label24.Name = "Label24"
+        Me.Label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label24.Size = New System.Drawing.Size(177, 30)
+        Me.Label24.TabIndex = 22
+        Me.Label24.Text = "מסודר"
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label26.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label26.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.Black
+        Me.Label26.Location = New System.Drawing.Point(3, 360)
+        Me.Label26.Name = "Label26"
+        Me.Label26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label26.Size = New System.Drawing.Size(177, 30)
+        Me.Label26.TabIndex = 24
+        Me.Label26.Text = "מסודר"
+        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label28.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label28.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.Black
+        Me.Label28.Location = New System.Drawing.Point(3, 390)
+        Me.Label28.Name = "Label28"
+        Me.Label28.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label28.Size = New System.Drawing.Size(177, 30)
+        Me.Label28.TabIndex = 26
+        Me.Label28.Text = "מסודר"
+        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label30.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label30.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.Black
+        Me.Label30.Location = New System.Drawing.Point(3, 420)
+        Me.Label30.Name = "Label30"
+        Me.Label30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label30.Size = New System.Drawing.Size(177, 30)
+        Me.Label30.TabIndex = 28
+        Me.Label30.Text = "מסודר"
+        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label32.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label32.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.Black
+        Me.Label32.Location = New System.Drawing.Point(3, 450)
+        Me.Label32.Name = "Label32"
+        Me.Label32.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label32.Size = New System.Drawing.Size(177, 30)
+        Me.Label32.TabIndex = 30
+        Me.Label32.Text = "מסודר"
+        Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label34.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label34.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.Black
+        Me.Label34.Location = New System.Drawing.Point(3, 480)
+        Me.Label34.Name = "Label34"
+        Me.Label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label34.Size = New System.Drawing.Size(177, 30)
+        Me.Label34.TabIndex = 32
+        Me.Label34.Text = "מסודר"
+        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label36.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label36.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.Black
+        Me.Label36.Location = New System.Drawing.Point(3, 510)
+        Me.Label36.Name = "Label36"
+        Me.Label36.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label36.Size = New System.Drawing.Size(177, 30)
+        Me.Label36.TabIndex = 34
+        Me.Label36.Text = "מסודר"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label38.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label38.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.Black
+        Me.Label38.Location = New System.Drawing.Point(3, 540)
+        Me.Label38.Name = "Label38"
+        Me.Label38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label38.Size = New System.Drawing.Size(177, 30)
+        Me.Label38.TabIndex = 36
+        Me.Label38.Text = "מסודר"
+        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label40.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label40.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.Color.Black
+        Me.Label40.Location = New System.Drawing.Point(3, 570)
+        Me.Label40.Name = "Label40"
+        Me.Label40.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label40.Size = New System.Drawing.Size(177, 30)
+        Me.Label40.TabIndex = 38
+        Me.Label40.Text = "מסודר"
+        Me.Label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label42.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label42.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.Black
+        Me.Label42.Location = New System.Drawing.Point(3, 600)
+        Me.Label42.Name = "Label42"
+        Me.Label42.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label42.Size = New System.Drawing.Size(177, 31)
+        Me.Label42.TabIndex = 40
+        Me.Label42.Text = "מסודר"
+        Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
