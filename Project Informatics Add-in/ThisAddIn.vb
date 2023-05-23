@@ -56,20 +56,20 @@ Public Class ThisAddIn
             ' 1) C1_Tasks 
             If x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C1_Tasks = Globals.ThisAddIn.C1_Tasks + 1
             ' 2) C2_Tasks over 25 days 
-            If x_task.TotalSlack > 40 And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C2_Tasksover25Days = Globals.ThisAddIn.C2_Tasksover25Days + 1
+            If x_task.Duration > (project.HoursPerDay * 25 * 60) And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C2_Tasksover25Days = Globals.ThisAddIn.C2_Tasksover25Days + 1
 
             '3) C3_Not In days 
-            'NEED TO CREATE 
-            '4) C4_PlannedinPast 
-            'Need to Create 
+            'NEED TO CREATE \
 
+            '4) C4_PlannedinPast 
+            If x_task.FinishVariance > 0 And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C4_PlannedinPast = Globals.ThisAddIn.C4_PlannedinPast + 1
             ' 5) C5_NoSuccessor 
             If x_task.Successors = "" And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C5_NoSuccessor = Globals.ThisAddIn.C5_NoSuccessor + 1
             '6) C6_NoPredeccesor 
             If x_task.Predecessors = "" And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C6_NoPredeccessor = Globals.ThisAddIn.C6_NoPredeccessor + 1
             '7) C7_ Links to Summary Task
-            If (x_task.Successors <> "" Or x_task.Predecessors <> "") And x_task.OutlineChildren.Count > 0 Then
-                Globals.ThisAddIn.C7_LinkstosummaryTasks = Globals.ThisAddIn.C7_LinkstosummaryTasks + x_task.Successors.Count + x_task.Predecessors.Count
+            If (x_task.TaskDependencies.Count > 0) And x_task.OutlineChildren.Count > 0 Then
+                Globals.ThisAddIn.C7_LinkstosummaryTasks = Globals.ThisAddIn.C7_LinkstosummaryTasks + x_task.TaskDependencies.Count
             End If
             '8) C6_ StartFinish + 9)StartStart + 10) FinishFinish 
             For Each Tdep In x_task.TaskDependencies
