@@ -66,6 +66,30 @@ Partial Class Form1
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
+        Me.Labelper1 = New System.Windows.Forms.Label()
+        Me.Labelper2 = New System.Windows.Forms.Label()
+        Me.Labelper3 = New System.Windows.Forms.Label()
+        Me.Labelper4 = New System.Windows.Forms.Label()
+        Me.LabelPer5 = New System.Windows.Forms.Label()
+        Me.LabelPer6 = New System.Windows.Forms.Label()
+        Me.Labelper7 = New System.Windows.Forms.Label()
+        Me.LabelPer8 = New System.Windows.Forms.Label()
+        Me.Labelper9 = New System.Windows.Forms.Label()
+        Me.Labelper10 = New System.Windows.Forms.Label()
+        Me.Labelper11 = New System.Windows.Forms.Label()
+        Me.Labelper12 = New System.Windows.Forms.Label()
+        Me.Labelper13 = New System.Windows.Forms.Label()
+        Me.Labelper14 = New System.Windows.Forms.Label()
+        Me.Labelper15 = New System.Windows.Forms.Label()
+        Me.Labelper16 = New System.Windows.Forms.Label()
+        Me.Labelper19 = New System.Windows.Forms.Label()
+        Me.Labelper17 = New System.Windows.Forms.Label()
+        Me.Labelper18 = New System.Windows.Forms.Label()
+        Me.Labelper20 = New System.Windows.Forms.Label()
+        Me.Labelper21 = New System.Windows.Forms.Label()
+        Me.CRITERION = New System.Windows.Forms.Label()
+        Me.CountTASKS = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,10 +98,10 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(186, 0)
+        Me.Label1.Location = New System.Drawing.Point(570, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label1.Size = New System.Drawing.Size(312, 30)
+        Me.Label1.Size = New System.Drawing.Size(271, 30)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "כמות פעולות"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -88,10 +112,10 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label2.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(3, 0)
+        Me.Label2.Location = New System.Drawing.Point(489, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label2.Size = New System.Drawing.Size(177, 30)
+        Me.Label2.Size = New System.Drawing.Size(75, 30)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "מסודר"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -99,9 +123,15 @@ Partial Class Form1
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.27778!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 183.0!))
+        Me.TableLayoutPanel1.ColumnCount = 8
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 57.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label19, 0, 9)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label3, 0, 1)
@@ -144,33 +174,54 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.Label38, 1, 18)
         Me.TableLayoutPanel1.Controls.Add(Me.Label40, 1, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.Label42, 1, 20)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper1, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper2, 2, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper3, 2, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper4, 2, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.LabelPer5, 2, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.LabelPer6, 2, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper7, 2, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.LabelPer8, 2, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper9, 2, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper10, 2, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper11, 2, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper12, 2, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper13, 2, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper14, 2, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper15, 2, 14)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper16, 2, 15)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper17, 2, 16)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper18, 2, 17)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper19, 2, 18)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper20, 2, 19)
+        Me.TableLayoutPanel1.Controls.Add(Me.Labelper21, 2, 20)
         Me.TableLayoutPanel1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 31)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 70)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TableLayoutPanel1.RowCount = 21
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761905!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(501, 631)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(844, 631)
         Me.TableLayoutPanel1.TabIndex = 2
         '
         'Label19
@@ -179,10 +230,10 @@ Partial Class Form1
         Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label19.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(186, 270)
+        Me.Label19.Location = New System.Drawing.Point(570, 270)
         Me.Label19.Name = "Label19"
         Me.Label19.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label19.Size = New System.Drawing.Size(312, 30)
+        Me.Label19.Size = New System.Drawing.Size(271, 30)
         Me.Label19.TabIndex = 17
         Me.Label19.Text = "כמות סס: סיים-סיים"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -192,10 +243,10 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label3.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(186, 30)
+        Me.Label3.Location = New System.Drawing.Point(570, 30)
         Me.Label3.Name = "Label3"
         Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label3.Size = New System.Drawing.Size(312, 30)
+        Me.Label3.Size = New System.Drawing.Size(271, 30)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "כמות פעולות משכים מעל 25 ימי עבודה "
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -205,10 +256,10 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label5.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(186, 60)
+        Me.Label5.Location = New System.Drawing.Point(570, 60)
         Me.Label5.Name = "Label5"
         Me.Label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label5.Size = New System.Drawing.Size(312, 30)
+        Me.Label5.Size = New System.Drawing.Size(271, 30)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "פעולות מתוזמנות לא בימים "
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -219,10 +270,10 @@ Partial Class Form1
         Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label7.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(186, 90)
+        Me.Label7.Location = New System.Drawing.Point(570, 90)
         Me.Label7.Name = "Label7"
         Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label7.Size = New System.Drawing.Size(312, 30)
+        Me.Label7.Size = New System.Drawing.Size(271, 30)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "פעולות מתוזמנות בעבר ולא הסתיימו "
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -233,10 +284,10 @@ Partial Class Form1
         Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label9.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(186, 120)
+        Me.Label9.Location = New System.Drawing.Point(570, 120)
         Me.Label9.Name = "Label9"
         Me.Label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label9.Size = New System.Drawing.Size(312, 30)
+        Me.Label9.Size = New System.Drawing.Size(271, 30)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "פעולות ללא פעולה עוקבת"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -247,10 +298,10 @@ Partial Class Form1
         Me.Label11.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label11.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(186, 150)
+        Me.Label11.Location = New System.Drawing.Point(570, 150)
         Me.Label11.Name = "Label11"
         Me.Label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label11.Size = New System.Drawing.Size(312, 30)
+        Me.Label11.Size = New System.Drawing.Size(271, 30)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "פעולות ללא פעולה מקדימה"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -261,10 +312,10 @@ Partial Class Form1
         Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label13.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(186, 180)
+        Me.Label13.Location = New System.Drawing.Point(570, 180)
         Me.Label13.Name = "Label13"
         Me.Label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label13.Size = New System.Drawing.Size(312, 30)
+        Me.Label13.Size = New System.Drawing.Size(271, 30)
         Me.Label13.TabIndex = 12
         Me.Label13.Text = "קשרים לערסל"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -275,10 +326,10 @@ Partial Class Form1
         Me.Label15.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label15.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(186, 210)
+        Me.Label15.Location = New System.Drawing.Point(570, 210)
         Me.Label15.Name = "Label15"
         Me.Label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label15.Size = New System.Drawing.Size(312, 30)
+        Me.Label15.Size = New System.Drawing.Size(271, 30)
         Me.Label15.TabIndex = 14
         Me.Label15.Text = "כמות הס: התחלה - סיים "
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -289,10 +340,10 @@ Partial Class Form1
         Me.Label17.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label17.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Black
-        Me.Label17.Location = New System.Drawing.Point(186, 240)
+        Me.Label17.Location = New System.Drawing.Point(570, 240)
         Me.Label17.Name = "Label17"
         Me.Label17.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label17.Size = New System.Drawing.Size(312, 30)
+        Me.Label17.Size = New System.Drawing.Size(271, 30)
         Me.Label17.TabIndex = 16
         Me.Label17.Text = "כמות הה: התחלה - התחלה "
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -303,10 +354,10 @@ Partial Class Form1
         Me.Label21.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label21.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(186, 300)
+        Me.Label21.Location = New System.Drawing.Point(570, 300)
         Me.Label21.Name = "Label21"
         Me.Label21.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label21.Size = New System.Drawing.Size(312, 30)
+        Me.Label21.Size = New System.Drawing.Size(271, 30)
         Me.Label21.TabIndex = 19
         Me.Label21.Text = "LAG חיובי"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -317,10 +368,10 @@ Partial Class Form1
         Me.Label23.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label23.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.Black
-        Me.Label23.Location = New System.Drawing.Point(186, 330)
+        Me.Label23.Location = New System.Drawing.Point(570, 330)
         Me.Label23.Name = "Label23"
         Me.Label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label23.Size = New System.Drawing.Size(312, 30)
+        Me.Label23.Size = New System.Drawing.Size(271, 30)
         Me.Label23.TabIndex = 21
         Me.Label23.Text = "LAG שלילי"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -331,10 +382,10 @@ Partial Class Form1
         Me.Label25.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label25.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.Black
-        Me.Label25.Location = New System.Drawing.Point(186, 360)
+        Me.Label25.Location = New System.Drawing.Point(570, 360)
         Me.Label25.Name = "Label25"
         Me.Label25.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label25.Size = New System.Drawing.Size(312, 30)
+        Me.Label25.Size = New System.Drawing.Size(271, 30)
         Me.Label25.TabIndex = 23
         Me.Label25.Text = "מאוחר ככל האפשר"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -345,10 +396,10 @@ Partial Class Form1
         Me.Label27.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label27.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.Black
-        Me.Label27.Location = New System.Drawing.Point(186, 390)
+        Me.Label27.Location = New System.Drawing.Point(570, 390)
         Me.Label27.Name = "Label27"
         Me.Label27.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label27.Size = New System.Drawing.Size(312, 30)
+        Me.Label27.Size = New System.Drawing.Size(271, 30)
         Me.Label27.TabIndex = 25
         Me.Label27.Text = "חייב להתחיל בתאריך"
         Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -359,10 +410,10 @@ Partial Class Form1
         Me.Label29.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label29.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(186, 420)
+        Me.Label29.Location = New System.Drawing.Point(570, 420)
         Me.Label29.Name = "Label29"
         Me.Label29.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label29.Size = New System.Drawing.Size(312, 30)
+        Me.Label29.Size = New System.Drawing.Size(271, 30)
         Me.Label29.TabIndex = 27
         Me.Label29.Text = "חייב להסתיים בתאריך"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -373,10 +424,10 @@ Partial Class Form1
         Me.Label31.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label31.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(186, 450)
+        Me.Label31.Location = New System.Drawing.Point(570, 450)
         Me.Label31.Name = "Label31"
         Me.Label31.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label31.Size = New System.Drawing.Size(312, 30)
+        Me.Label31.Size = New System.Drawing.Size(271, 30)
         Me.Label31.TabIndex = 29
         Me.Label31.Text = "התחלה לא לפני"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -387,10 +438,10 @@ Partial Class Form1
         Me.Label33.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label33.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
-        Me.Label33.Location = New System.Drawing.Point(186, 480)
+        Me.Label33.Location = New System.Drawing.Point(570, 480)
         Me.Label33.Name = "Label33"
         Me.Label33.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label33.Size = New System.Drawing.Size(312, 30)
+        Me.Label33.Size = New System.Drawing.Size(271, 30)
         Me.Label33.TabIndex = 31
         Me.Label33.Text = "התחלה לא אחרי"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -401,10 +452,10 @@ Partial Class Form1
         Me.Label35.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label35.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Black
-        Me.Label35.Location = New System.Drawing.Point(186, 510)
+        Me.Label35.Location = New System.Drawing.Point(570, 510)
         Me.Label35.Name = "Label35"
         Me.Label35.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label35.Size = New System.Drawing.Size(312, 30)
+        Me.Label35.Size = New System.Drawing.Size(271, 30)
         Me.Label35.TabIndex = 33
         Me.Label35.Text = "סיום לא לפני "
         Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -415,10 +466,10 @@ Partial Class Form1
         Me.Label37.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label37.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.Black
-        Me.Label37.Location = New System.Drawing.Point(186, 540)
+        Me.Label37.Location = New System.Drawing.Point(570, 540)
         Me.Label37.Name = "Label37"
         Me.Label37.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label37.Size = New System.Drawing.Size(312, 30)
+        Me.Label37.Size = New System.Drawing.Size(271, 30)
         Me.Label37.TabIndex = 35
         Me.Label37.Text = "סיום לא אחרי"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -429,10 +480,10 @@ Partial Class Form1
         Me.Label39.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label39.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Black
-        Me.Label39.Location = New System.Drawing.Point(186, 570)
+        Me.Label39.Location = New System.Drawing.Point(570, 570)
         Me.Label39.Name = "Label39"
         Me.Label39.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label39.Size = New System.Drawing.Size(312, 30)
+        Me.Label39.Size = New System.Drawing.Size(271, 30)
         Me.Label39.TabIndex = 37
         Me.Label39.Text = "פעולות עם TOTAL FLOAT מעל מ44 ימים"
         Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -443,10 +494,10 @@ Partial Class Form1
         Me.Label41.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label41.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.Black
-        Me.Label41.Location = New System.Drawing.Point(186, 600)
+        Me.Label41.Location = New System.Drawing.Point(570, 600)
         Me.Label41.Name = "Label41"
         Me.Label41.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label41.Size = New System.Drawing.Size(312, 31)
+        Me.Label41.Size = New System.Drawing.Size(271, 31)
         Me.Label41.TabIndex = 39
         Me.Label41.Text = "FLOAT שלילי"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -457,10 +508,10 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label4.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 30)
+        Me.Label4.Location = New System.Drawing.Point(489, 30)
         Me.Label4.Name = "Label4"
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label4.Size = New System.Drawing.Size(177, 30)
+        Me.Label4.Size = New System.Drawing.Size(75, 30)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "מסודר"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -472,10 +523,10 @@ Partial Class Form1
         Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label6.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(3, 60)
+        Me.Label6.Location = New System.Drawing.Point(489, 60)
         Me.Label6.Name = "Label6"
         Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label6.Size = New System.Drawing.Size(177, 30)
+        Me.Label6.Size = New System.Drawing.Size(75, 30)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "צריך לשאול את איציק"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -483,16 +534,16 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.IndianRed
+        Me.Label8.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label8.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(3, 90)
+        Me.Label8.Location = New System.Drawing.Point(489, 90)
         Me.Label8.Name = "Label8"
         Me.Label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label8.Size = New System.Drawing.Size(177, 30)
+        Me.Label8.Size = New System.Drawing.Size(75, 30)
         Me.Label8.TabIndex = 7
-        Me.Label8.Text = "צריך לשאול את איציק"
+        Me.Label8.Text = "מסודר"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label10
@@ -502,10 +553,10 @@ Partial Class Form1
         Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label10.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(3, 120)
+        Me.Label10.Location = New System.Drawing.Point(489, 120)
         Me.Label10.Name = "Label10"
         Me.Label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label10.Size = New System.Drawing.Size(177, 30)
+        Me.Label10.Size = New System.Drawing.Size(75, 30)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "מסודר"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -517,10 +568,10 @@ Partial Class Form1
         Me.Label12.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label12.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(3, 150)
+        Me.Label12.Location = New System.Drawing.Point(489, 150)
         Me.Label12.Name = "Label12"
         Me.Label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label12.Size = New System.Drawing.Size(177, 30)
+        Me.Label12.Size = New System.Drawing.Size(75, 30)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "מסודר"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -532,10 +583,10 @@ Partial Class Form1
         Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label14.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(3, 180)
+        Me.Label14.Location = New System.Drawing.Point(489, 180)
         Me.Label14.Name = "Label14"
         Me.Label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label14.Size = New System.Drawing.Size(177, 30)
+        Me.Label14.Size = New System.Drawing.Size(75, 30)
         Me.Label14.TabIndex = 13
         Me.Label14.Text = "מסודר"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -547,10 +598,10 @@ Partial Class Form1
         Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label16.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(3, 210)
+        Me.Label16.Location = New System.Drawing.Point(489, 210)
         Me.Label16.Name = "Label16"
         Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label16.Size = New System.Drawing.Size(177, 30)
+        Me.Label16.Size = New System.Drawing.Size(75, 30)
         Me.Label16.TabIndex = 15
         Me.Label16.Text = "מסודר"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -562,10 +613,10 @@ Partial Class Form1
         Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label18.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Black
-        Me.Label18.Location = New System.Drawing.Point(3, 240)
+        Me.Label18.Location = New System.Drawing.Point(489, 240)
         Me.Label18.Name = "Label18"
         Me.Label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label18.Size = New System.Drawing.Size(177, 30)
+        Me.Label18.Size = New System.Drawing.Size(75, 30)
         Me.Label18.TabIndex = 17
         Me.Label18.Text = "מסודר"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -577,10 +628,10 @@ Partial Class Form1
         Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label20.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(3, 270)
+        Me.Label20.Location = New System.Drawing.Point(489, 270)
         Me.Label20.Name = "Label20"
         Me.Label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label20.Size = New System.Drawing.Size(177, 30)
+        Me.Label20.Size = New System.Drawing.Size(75, 30)
         Me.Label20.TabIndex = 18
         Me.Label20.Text = "מסודר"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -592,10 +643,10 @@ Partial Class Form1
         Me.Label22.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label22.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(3, 300)
+        Me.Label22.Location = New System.Drawing.Point(489, 300)
         Me.Label22.Name = "Label22"
         Me.Label22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label22.Size = New System.Drawing.Size(177, 30)
+        Me.Label22.Size = New System.Drawing.Size(75, 30)
         Me.Label22.TabIndex = 20
         Me.Label22.Text = "מסודר"
         Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -607,10 +658,10 @@ Partial Class Form1
         Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label24.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(3, 330)
+        Me.Label24.Location = New System.Drawing.Point(489, 330)
         Me.Label24.Name = "Label24"
         Me.Label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label24.Size = New System.Drawing.Size(177, 30)
+        Me.Label24.Size = New System.Drawing.Size(75, 30)
         Me.Label24.TabIndex = 22
         Me.Label24.Text = "מסודר"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -622,10 +673,10 @@ Partial Class Form1
         Me.Label26.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label26.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.Black
-        Me.Label26.Location = New System.Drawing.Point(3, 360)
+        Me.Label26.Location = New System.Drawing.Point(489, 360)
         Me.Label26.Name = "Label26"
         Me.Label26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label26.Size = New System.Drawing.Size(177, 30)
+        Me.Label26.Size = New System.Drawing.Size(75, 30)
         Me.Label26.TabIndex = 24
         Me.Label26.Text = "מסודר"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -637,10 +688,10 @@ Partial Class Form1
         Me.Label28.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label28.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.Black
-        Me.Label28.Location = New System.Drawing.Point(3, 390)
+        Me.Label28.Location = New System.Drawing.Point(489, 390)
         Me.Label28.Name = "Label28"
         Me.Label28.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label28.Size = New System.Drawing.Size(177, 30)
+        Me.Label28.Size = New System.Drawing.Size(75, 30)
         Me.Label28.TabIndex = 26
         Me.Label28.Text = "מסודר"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -652,10 +703,10 @@ Partial Class Form1
         Me.Label30.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label30.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(3, 420)
+        Me.Label30.Location = New System.Drawing.Point(489, 420)
         Me.Label30.Name = "Label30"
         Me.Label30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label30.Size = New System.Drawing.Size(177, 30)
+        Me.Label30.Size = New System.Drawing.Size(75, 30)
         Me.Label30.TabIndex = 28
         Me.Label30.Text = "מסודר"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -667,10 +718,10 @@ Partial Class Form1
         Me.Label32.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label32.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.Black
-        Me.Label32.Location = New System.Drawing.Point(3, 450)
+        Me.Label32.Location = New System.Drawing.Point(489, 450)
         Me.Label32.Name = "Label32"
         Me.Label32.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label32.Size = New System.Drawing.Size(177, 30)
+        Me.Label32.Size = New System.Drawing.Size(75, 30)
         Me.Label32.TabIndex = 30
         Me.Label32.Text = "מסודר"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -682,10 +733,10 @@ Partial Class Form1
         Me.Label34.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label34.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Black
-        Me.Label34.Location = New System.Drawing.Point(3, 480)
+        Me.Label34.Location = New System.Drawing.Point(489, 480)
         Me.Label34.Name = "Label34"
         Me.Label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label34.Size = New System.Drawing.Size(177, 30)
+        Me.Label34.Size = New System.Drawing.Size(75, 30)
         Me.Label34.TabIndex = 32
         Me.Label34.Text = "מסודר"
         Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -697,10 +748,10 @@ Partial Class Form1
         Me.Label36.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label36.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Black
-        Me.Label36.Location = New System.Drawing.Point(3, 510)
+        Me.Label36.Location = New System.Drawing.Point(489, 510)
         Me.Label36.Name = "Label36"
         Me.Label36.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label36.Size = New System.Drawing.Size(177, 30)
+        Me.Label36.Size = New System.Drawing.Size(75, 30)
         Me.Label36.TabIndex = 34
         Me.Label36.Text = "מסודר"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -712,10 +763,10 @@ Partial Class Form1
         Me.Label38.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label38.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.Black
-        Me.Label38.Location = New System.Drawing.Point(3, 540)
+        Me.Label38.Location = New System.Drawing.Point(489, 540)
         Me.Label38.Name = "Label38"
         Me.Label38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label38.Size = New System.Drawing.Size(177, 30)
+        Me.Label38.Size = New System.Drawing.Size(75, 30)
         Me.Label38.TabIndex = 36
         Me.Label38.Text = "מסודר"
         Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -727,10 +778,10 @@ Partial Class Form1
         Me.Label40.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label40.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.Black
-        Me.Label40.Location = New System.Drawing.Point(3, 570)
+        Me.Label40.Location = New System.Drawing.Point(489, 570)
         Me.Label40.Name = "Label40"
         Me.Label40.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label40.Size = New System.Drawing.Size(177, 30)
+        Me.Label40.Size = New System.Drawing.Size(75, 30)
         Me.Label40.TabIndex = 38
         Me.Label40.Text = "מסודר"
         Me.Label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -742,19 +793,241 @@ Partial Class Form1
         Me.Label42.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label42.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(3, 600)
+        Me.Label42.Location = New System.Drawing.Point(489, 600)
         Me.Label42.Name = "Label42"
         Me.Label42.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label42.Size = New System.Drawing.Size(177, 31)
+        Me.Label42.Size = New System.Drawing.Size(75, 31)
         Me.Label42.TabIndex = 40
         Me.Label42.Text = "מסודר"
         Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Labelper1
+        '
+        Me.Labelper1.AutoSize = True
+        Me.Labelper1.Location = New System.Drawing.Point(395, 0)
+        Me.Labelper1.Name = "Labelper1"
+        Me.Labelper1.Size = New System.Drawing.Size(88, 18)
+        Me.Labelper1.TabIndex = 41
+        Me.Labelper1.Text = "Labelperc1"
+        '
+        'Labelper2
+        '
+        Me.Labelper2.AutoSize = True
+        Me.Labelper2.Location = New System.Drawing.Point(403, 30)
+        Me.Labelper2.Name = "Labelper2"
+        Me.Labelper2.Size = New System.Drawing.Size(80, 18)
+        Me.Labelper2.TabIndex = 42
+        Me.Labelper2.Text = "Labelper2"
+        '
+        'Labelper3
+        '
+        Me.Labelper3.AutoSize = True
+        Me.Labelper3.Location = New System.Drawing.Point(403, 60)
+        Me.Labelper3.Name = "Labelper3"
+        Me.Labelper3.Size = New System.Drawing.Size(80, 18)
+        Me.Labelper3.TabIndex = 43
+        Me.Labelper3.Text = "Labelper3"
+        '
+        'Labelper4
+        '
+        Me.Labelper4.AutoSize = True
+        Me.Labelper4.Location = New System.Drawing.Point(402, 90)
+        Me.Labelper4.Name = "Labelper4"
+        Me.Labelper4.Size = New System.Drawing.Size(81, 18)
+        Me.Labelper4.TabIndex = 44
+        Me.Labelper4.Text = "LabelPer4"
+        '
+        'LabelPer5
+        '
+        Me.LabelPer5.AutoSize = True
+        Me.LabelPer5.Location = New System.Drawing.Point(403, 120)
+        Me.LabelPer5.Name = "LabelPer5"
+        Me.LabelPer5.Size = New System.Drawing.Size(80, 18)
+        Me.LabelPer5.TabIndex = 45
+        Me.LabelPer5.Text = "Labelper5"
+        '
+        'LabelPer6
+        '
+        Me.LabelPer6.AutoSize = True
+        Me.LabelPer6.Location = New System.Drawing.Point(402, 150)
+        Me.LabelPer6.Name = "LabelPer6"
+        Me.LabelPer6.Size = New System.Drawing.Size(81, 18)
+        Me.LabelPer6.TabIndex = 46
+        Me.LabelPer6.Text = "LabelPer6"
+        '
+        'Labelper7
+        '
+        Me.Labelper7.AutoSize = True
+        Me.Labelper7.Location = New System.Drawing.Point(402, 180)
+        Me.Labelper7.Name = "Labelper7"
+        Me.Labelper7.Size = New System.Drawing.Size(81, 18)
+        Me.Labelper7.TabIndex = 47
+        Me.Labelper7.Text = "LabelPer7"
+        '
+        'LabelPer8
+        '
+        Me.LabelPer8.AutoSize = True
+        Me.LabelPer8.Location = New System.Drawing.Point(402, 210)
+        Me.LabelPer8.Name = "LabelPer8"
+        Me.LabelPer8.Size = New System.Drawing.Size(81, 18)
+        Me.LabelPer8.TabIndex = 48
+        Me.LabelPer8.Text = "LabelPer8"
+        '
+        'Labelper9
+        '
+        Me.Labelper9.AutoSize = True
+        Me.Labelper9.Location = New System.Drawing.Point(403, 240)
+        Me.Labelper9.Name = "Labelper9"
+        Me.Labelper9.Size = New System.Drawing.Size(80, 18)
+        Me.Labelper9.TabIndex = 49
+        Me.Labelper9.Text = "Labelper9"
+        '
+        'Labelper10
+        '
+        Me.Labelper10.AutoSize = True
+        Me.Labelper10.Location = New System.Drawing.Point(393, 270)
+        Me.Labelper10.Name = "Labelper10"
+        Me.Labelper10.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper10.TabIndex = 50
+        Me.Labelper10.Text = "LabelPer10"
+        '
+        'Labelper11
+        '
+        Me.Labelper11.AutoSize = True
+        Me.Labelper11.Location = New System.Drawing.Point(394, 300)
+        Me.Labelper11.Name = "Labelper11"
+        Me.Labelper11.Size = New System.Drawing.Size(89, 18)
+        Me.Labelper11.TabIndex = 51
+        Me.Labelper11.Text = "Labelper11"
+        '
+        'Labelper12
+        '
+        Me.Labelper12.AutoSize = True
+        Me.Labelper12.Location = New System.Drawing.Point(394, 330)
+        Me.Labelper12.Name = "Labelper12"
+        Me.Labelper12.Size = New System.Drawing.Size(89, 18)
+        Me.Labelper12.TabIndex = 52
+        Me.Labelper12.Text = "Labelper12"
+        '
+        'Labelper13
+        '
+        Me.Labelper13.AutoSize = True
+        Me.Labelper13.Location = New System.Drawing.Point(393, 360)
+        Me.Labelper13.Name = "Labelper13"
+        Me.Labelper13.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper13.TabIndex = 53
+        Me.Labelper13.Text = "LabelPer13"
+        '
+        'Labelper14
+        '
+        Me.Labelper14.AutoSize = True
+        Me.Labelper14.Location = New System.Drawing.Point(393, 390)
+        Me.Labelper14.Name = "Labelper14"
+        Me.Labelper14.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper14.TabIndex = 54
+        Me.Labelper14.Text = "LabelPer14"
+        '
+        'Labelper15
+        '
+        Me.Labelper15.AutoSize = True
+        Me.Labelper15.Location = New System.Drawing.Point(393, 420)
+        Me.Labelper15.Name = "Labelper15"
+        Me.Labelper15.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper15.TabIndex = 55
+        Me.Labelper15.Text = "LabelPer15"
+        '
+        'Labelper16
+        '
+        Me.Labelper16.AutoSize = True
+        Me.Labelper16.Location = New System.Drawing.Point(393, 450)
+        Me.Labelper16.Name = "Labelper16"
+        Me.Labelper16.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper16.TabIndex = 56
+        Me.Labelper16.Text = "LabelPer16"
+        '
+        'Labelper19
+        '
+        Me.Labelper19.AutoSize = True
+        Me.Labelper19.Location = New System.Drawing.Point(392, 540)
+        Me.Labelper19.Name = "Labelper19"
+        Me.Labelper19.Size = New System.Drawing.Size(91, 18)
+        Me.Labelper19.TabIndex = 57
+        Me.Labelper19.Text = "LabelPEr19"
+        '
+        'Labelper17
+        '
+        Me.Labelper17.AutoSize = True
+        Me.Labelper17.Location = New System.Drawing.Point(393, 480)
+        Me.Labelper17.Name = "Labelper17"
+        Me.Labelper17.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper17.TabIndex = 58
+        Me.Labelper17.Text = "LabelPer17"
+        '
+        'Labelper18
+        '
+        Me.Labelper18.AutoSize = True
+        Me.Labelper18.Location = New System.Drawing.Point(392, 510)
+        Me.Labelper18.Name = "Labelper18"
+        Me.Labelper18.Size = New System.Drawing.Size(91, 18)
+        Me.Labelper18.TabIndex = 59
+        Me.Labelper18.Text = "LabelPEr18"
+        '
+        'Labelper20
+        '
+        Me.Labelper20.AutoSize = True
+        Me.Labelper20.Location = New System.Drawing.Point(393, 570)
+        Me.Labelper20.Name = "Labelper20"
+        Me.Labelper20.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper20.TabIndex = 60
+        Me.Labelper20.Text = "LabelPer20"
+        '
+        'Labelper21
+        '
+        Me.Labelper21.AutoSize = True
+        Me.Labelper21.Location = New System.Drawing.Point(393, 600)
+        Me.Labelper21.Name = "Labelper21"
+        Me.Labelper21.Size = New System.Drawing.Size(90, 18)
+        Me.Labelper21.TabIndex = 61
+        Me.Labelper21.Text = "LabelPer21"
+        '
+        'CRITERION
+        '
+        Me.CRITERION.AutoSize = True
+        Me.CRITERION.Font = New System.Drawing.Font("Varela Round", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CRITERION.Location = New System.Drawing.Point(721, 28)
+        Me.CRITERION.Name = "CRITERION"
+        Me.CRITERION.Size = New System.Drawing.Size(110, 24)
+        Me.CRITERION.TabIndex = 3
+        Me.CRITERION.Text = "קריטריונים"
+        '
+        'CountTASKS
+        '
+        Me.CountTASKS.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CountTASKS.Location = New System.Drawing.Point(543, 14)
+        Me.CountTASKS.Name = "CountTASKS"
+        Me.CountTASKS.Size = New System.Drawing.Size(85, 53)
+        Me.CountTASKS.TabIndex = 4
+        Me.CountTASKS.Text = "מספר פעולות"
+        Me.CountTASKS.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label43
+        '
+        Me.Label43.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(457, 31)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(85, 21)
+        Me.Label43.TabIndex = 5
+        Me.Label43.Text = "אחוז"
+        Me.Label43.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(519, 687)
+        Me.ClientSize = New System.Drawing.Size(960, 687)
+        Me.Controls.Add(Me.Label43)
+        Me.Controls.Add(Me.CountTASKS)
+        Me.Controls.Add(Me.CRITERION)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
@@ -762,6 +1035,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -808,4 +1082,28 @@ Partial Class Form1
     Friend WithEvents Label37 As Windows.Forms.Label
     Friend WithEvents Label39 As Windows.Forms.Label
     Friend WithEvents Label41 As Windows.Forms.Label
+    Friend WithEvents Labelper1 As Windows.Forms.Label
+    Friend WithEvents Labelper2 As Windows.Forms.Label
+    Friend WithEvents Labelper3 As Windows.Forms.Label
+    Friend WithEvents Labelper4 As Windows.Forms.Label
+    Friend WithEvents LabelPer5 As Windows.Forms.Label
+    Friend WithEvents LabelPer6 As Windows.Forms.Label
+    Friend WithEvents Labelper7 As Windows.Forms.Label
+    Friend WithEvents LabelPer8 As Windows.Forms.Label
+    Friend WithEvents Labelper9 As Windows.Forms.Label
+    Friend WithEvents Labelper10 As Windows.Forms.Label
+    Friend WithEvents Labelper11 As Windows.Forms.Label
+    Friend WithEvents Labelper12 As Windows.Forms.Label
+    Friend WithEvents Labelper13 As Windows.Forms.Label
+    Friend WithEvents Labelper14 As Windows.Forms.Label
+    Friend WithEvents Labelper15 As Windows.Forms.Label
+    Friend WithEvents Labelper16 As Windows.Forms.Label
+    Friend WithEvents Labelper17 As Windows.Forms.Label
+    Friend WithEvents Labelper18 As Windows.Forms.Label
+    Friend WithEvents Labelper19 As Windows.Forms.Label
+    Friend WithEvents Labelper20 As Windows.Forms.Label
+    Friend WithEvents Labelper21 As Windows.Forms.Label
+    Friend WithEvents CRITERION As Windows.Forms.Label
+    Friend WithEvents CountTASKS As Windows.Forms.Label
+    Friend WithEvents Label43 As Windows.Forms.Label
 End Class

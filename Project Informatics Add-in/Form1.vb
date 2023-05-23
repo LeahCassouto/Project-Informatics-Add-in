@@ -48,6 +48,51 @@ Public Class Form1
         Label40.Text = CStr(Globals.ThisAddIn.C20_LargeTotalSlack) '20
         Label42.Text = CStr(Globals.ThisAddIn.C21_NegativeSlack) '21
 
+        If Globals.ThisAddIn.C1_Tasks <> 0 Then
+            Labelper1.Text = "100%"
+            Labelper2.Text = CStr(Math.Round((Globals.ThisAddIn.C2_Tasksover25Days / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper3.Text = CStr(Math.Round((Globals.ThisAddIn.C3_Notindays / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper4.Text = CStr(Math.Round((Globals.ThisAddIn.C4_PlannedinPast / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            LabelPer5.Text = CStr(Math.Round((Globals.ThisAddIn.C5_NoSuccessor / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            LabelPer6.Text = CStr(Math.Round((Globals.ThisAddIn.C6_NoPredeccessor / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper7.Text = CStr(Math.Round((Globals.ThisAddIn.C7_LinkstosummaryTasks / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            LabelPer8.Text = CStr(Math.Round((Globals.ThisAddIn.C8_StartFinish / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper9.Text = CStr(Math.Round((Globals.ThisAddIn.C9_StartStart / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper10.Text = CStr(Math.Round((Globals.ThisAddIn.C10_FinishFinish / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper11.Text = CStr(Math.Round((Globals.ThisAddIn.C11_PositiveLag / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper12.Text = CStr(Math.Round((Globals.ThisAddIn.C12_NegativeLag / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper13.Text = CStr(Math.Round((Globals.ThisAddIn.C13_AsLateAsPossible / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper14.Text = CStr(Math.Round((Globals.ThisAddIn.C14_MustStartOn / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper15.Text = CStr(Math.Round((Globals.ThisAddIn.C15_MustFinishOn / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper16.Text = CStr(Math.Round((Globals.ThisAddIn.C16_StartNoEarlierThan / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper17.Text = CStr(Math.Round((Globals.ThisAddIn.C17_StarNoLaterThan / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper18.Text = CStr(Math.Round((Globals.ThisAddIn.C18_FinishNoEarlierThan / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper19.Text = CStr(Math.Round((Globals.ThisAddIn.C19_FinishNoLaterThan / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper20.Text = CStr(Math.Round((Globals.ThisAddIn.C20_LargeTotalSlack / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+            Labelper21.Text = CStr(Math.Round((Globals.ThisAddIn.C21_NegativeSlack / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
+        Else
+            Labelper1.Text = "0"
+            Labelper2.Text = "0"
+            Labelper3.Text = "0"
+            Labelper4.Text = "0"
+            LabelPer5.Text = "0"
+            LabelPer6.Text = "0"
+            Labelper7.Text = "0"
+            LabelPer8.Text = "0"
+            Labelper9.Text = "0"
+            Labelper10.Text = "0"
+            Labelper11.Text = "0"
+            Labelper12.Text = "0"
+            Labelper13.Text = "0"
+            Labelper14.Text = "0"
+            Labelper15.Text = "0"
+            Labelper16.Text = "0"
+            Labelper17.Text = "0"
+            Labelper18.Text = "0"
+            Labelper19.Text = "0"
+            Labelper20.Text = "0"
+            Labelper21.Text = "0"
+        End If
 
     End Sub
 
@@ -72,6 +117,18 @@ Public Class Form1
     End Sub
 
     Private Sub Label40_Click(sender As Object, e As EventArgs) Handles Label40.Click
+
+    End Sub
+
+    Private Sub Labelper4_Click(sender As Object, e As EventArgs) Handles Labelper4.Click
+
+    End Sub
+
+    Private Sub Label50_Click(sender As Object, e As EventArgs) Handles Labelper12.Click
+
+    End Sub
+
+    Private Sub Label43_Click(sender As Object, e As EventArgs) Handles Label43.Click
 
     End Sub
 End Class
