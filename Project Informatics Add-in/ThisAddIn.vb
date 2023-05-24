@@ -175,7 +175,6 @@ Public Class ThisAddIn
     Public Function C_StartFinish(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
         Dim project As Microsoft.Office.Interop.MSProject.Project
         Dim x_task As Microsoft.Office.Interop.MSProject.Task
-        Dim P As Microsoft.Office.Interop.MSProject.TaskDependency
         project = pj
         Dim task_count As Double = 0
         For Each x_task In project.Tasks
@@ -196,7 +195,6 @@ Public Class ThisAddIn
     Public Function C_StartStart(ByVal pj As Microsoft.Office.Interop.MSProject.Project) As Integer
         Dim project As Microsoft.Office.Interop.MSProject.Project
         Dim x_task As Microsoft.Office.Interop.MSProject.Task
-        Dim P As Microsoft.Office.Interop.MSProject.TaskDependency
         project = pj
         Dim task_count As Double = 0
         For Each x_task In project.Tasks
