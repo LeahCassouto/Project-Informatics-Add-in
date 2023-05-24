@@ -1,4 +1,5 @@
-﻿Imports Microsoft.Office.Tools.Ribbon
+﻿Imports System.Runtime.Remoting
+Imports Microsoft.Office.Tools.Ribbon
 
 Public Class Form1
 
@@ -93,8 +94,49 @@ Public Class Form1
             Labelper20.Text = "0"
             Labelper21.Text = "0"
         End If
+        Dim Limits(20) As Double
+        'תזכורת LIMITS(1) הוא עבר השני במערך
+        Limits(1) = 0.15 '2
+        Limits(2) = 0 '3
+        Limits(3) = 0   '4
+        Limits(4) = 0.1 '5
+        Limits(5) = 0.05    '6
+        Limits(6) = 0.05 '7
+        Limits(7) = 0   '8
+        Limits(8) = 0.1
+        Limits(9) = 0.2
+        Limits(10) = 0.2
+        Limits(11) = 0.1
+        Limits(12) = 0.05
+        Limits(13) = 0.1
+        Limits(14) = 0.1
+        Limits(15) = 0.1
+        Limits(16) = Limits(17) = Limits(18) = Limits(19) = Limits(20) = 0
+
+        TextBox2.Text = FormatPercent(Limits(1), 0)
+        TextBox3.Text = FormatPercent(Limits(2), 0)
+        TextBox4.Text = FormatPercent(Limits(3), 0)
+        TextBox5.Text = FormatPercent(Limits(4), 0)
+        TextBox6.Text = FormatPercent(Limits(5), 0)
+        TextBox7.Text = FormatPercent(Limits(6), 0)
+        TextBox8.Text = FormatPercent(Limits(7), 0)
+        TextBox9.Text = FormatPercent(Limits(8), 0)
+        TextBox10.Text = FormatPercent(Limits(9), 0)
+        TextBox11.Text = FormatPercent(Limits(10), 0)
+        TextBox12.Text = FormatPercent(Limits(11), 0)
+        TextBox13.Text = FormatPercent(Limits(12), 0)
+        TextBox14.Text = FormatPercent(Limits(13), 0)
+        TextBox15.Text = FormatPercent(Limits(14), 0)
+        TextBox16.Text = FormatPercent(Limits(15), 0)
+        TextBox17.Text = FormatPercent(Limits(16), 0)
+        TextBox18.Text = FormatPercent(Limits(17), 0)
+        TextBox19.Text = FormatPercent(Limits(18), 0)
+        TextBox20.Text = FormatPercent(Limits(19), 0)
+        TextBox21.Text = FormatPercent(Limits(20), 0)
+
 
     End Sub
+
 
     Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
 
@@ -130,5 +172,16 @@ Public Class Form1
 
     Private Sub Label43_Click(sender As Object, e As EventArgs) Handles Label43.Click
 
+    End Sub
+
+    Private Sub Label44_Click(sender As Object, e As EventArgs) Handles Label44.Click
+
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked Then
+            CheckBox1.Text = "נעול לשינוים"
+        Else CheckBox1.Text = "לא נעול"
+        End If
     End Sub
 End Class

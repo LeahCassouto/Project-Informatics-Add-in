@@ -82,14 +82,37 @@ Partial Class Form1
         Me.Labelper14 = New System.Windows.Forms.Label()
         Me.Labelper15 = New System.Windows.Forms.Label()
         Me.Labelper16 = New System.Windows.Forms.Label()
-        Me.Labelper19 = New System.Windows.Forms.Label()
         Me.Labelper17 = New System.Windows.Forms.Label()
         Me.Labelper18 = New System.Windows.Forms.Label()
+        Me.Labelper19 = New System.Windows.Forms.Label()
         Me.Labelper20 = New System.Windows.Forms.Label()
         Me.Labelper21 = New System.Windows.Forms.Label()
         Me.CRITERION = New System.Windows.Forms.Label()
         Me.CountTASKS = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -132,6 +155,12 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox21, 3, 20)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox20, 3, 19)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox19, 3, 18)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox18, 3, 17)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox17, 3, 16)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 3, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label19, 0, 9)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label3, 0, 1)
@@ -195,8 +224,23 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.Labelper19, 2, 18)
         Me.TableLayoutPanel1.Controls.Add(Me.Labelper20, 2, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.Labelper21, 2, 20)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox2, 3, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 3, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 3, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox5, 3, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox6, 3, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox7, 3, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox8, 3, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox9, 3, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox10, 3, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox11, 3, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox12, 3, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox13, 3, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox14, 3, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox15, 3, 14)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox16, 3, 15)
         Me.TableLayoutPanel1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 70)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 104)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TableLayoutPanel1.RowCount = 21
@@ -945,15 +989,6 @@ Partial Class Form1
         Me.Labelper16.TabIndex = 56
         Me.Labelper16.Text = "LabelPer16"
         '
-        'Labelper19
-        '
-        Me.Labelper19.AutoSize = True
-        Me.Labelper19.Location = New System.Drawing.Point(392, 540)
-        Me.Labelper19.Name = "Labelper19"
-        Me.Labelper19.Size = New System.Drawing.Size(91, 18)
-        Me.Labelper19.TabIndex = 57
-        Me.Labelper19.Text = "LabelPEr19"
-        '
         'Labelper17
         '
         Me.Labelper17.AutoSize = True
@@ -971,6 +1006,15 @@ Partial Class Form1
         Me.Labelper18.Size = New System.Drawing.Size(91, 18)
         Me.Labelper18.TabIndex = 59
         Me.Labelper18.Text = "LabelPEr18"
+        '
+        'Labelper19
+        '
+        Me.Labelper19.AutoSize = True
+        Me.Labelper19.Location = New System.Drawing.Point(392, 540)
+        Me.Labelper19.Name = "Labelper19"
+        Me.Labelper19.Size = New System.Drawing.Size(91, 18)
+        Me.Labelper19.TabIndex = 57
+        Me.Labelper19.Text = "LabelPEr19"
         '
         'Labelper20
         '
@@ -994,7 +1038,7 @@ Partial Class Form1
         '
         Me.CRITERION.AutoSize = True
         Me.CRITERION.Font = New System.Drawing.Font("Varela Round", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CRITERION.Location = New System.Drawing.Point(721, 28)
+        Me.CRITERION.Location = New System.Drawing.Point(712, 31)
         Me.CRITERION.Name = "CRITERION"
         Me.CRITERION.Size = New System.Drawing.Size(110, 24)
         Me.CRITERION.TabIndex = 3
@@ -1003,7 +1047,7 @@ Partial Class Form1
         'CountTASKS
         '
         Me.CountTASKS.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CountTASKS.Location = New System.Drawing.Point(543, 14)
+        Me.CountTASKS.Location = New System.Drawing.Point(548, 14)
         Me.CountTASKS.Name = "CountTASKS"
         Me.CountTASKS.Size = New System.Drawing.Size(85, 53)
         Me.CountTASKS.TabIndex = 4
@@ -1020,11 +1064,182 @@ Partial Class Form1
         Me.Label43.Text = "אחוז"
         Me.Label43.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
+        'Label44
+        '
+        Me.Label44.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(366, 32)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(85, 21)
+        Me.Label44.TabIndex = 6
+        Me.Label44.Text = "גבול"
+        Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(327, 3)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox1.TabIndex = 7
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(327, 33)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox2.TabIndex = 62
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(327, 63)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox3.TabIndex = 63
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(327, 93)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox4.TabIndex = 64
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(327, 123)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox5.TabIndex = 65
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(327, 153)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox6.TabIndex = 66
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(327, 183)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox7.TabIndex = 67
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(327, 213)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox8.TabIndex = 68
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(327, 243)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox9.TabIndex = 69
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(327, 273)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox10.TabIndex = 70
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(327, 303)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox11.TabIndex = 71
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Location = New System.Drawing.Point(327, 333)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox12.TabIndex = 72
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Location = New System.Drawing.Point(327, 363)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox13.TabIndex = 73
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Location = New System.Drawing.Point(327, 393)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox14.TabIndex = 74
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Location = New System.Drawing.Point(327, 423)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox15.TabIndex = 75
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Location = New System.Drawing.Point(327, 453)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox16.TabIndex = 76
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(327, 483)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox17.TabIndex = 77
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(327, 513)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox18.TabIndex = 77
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(327, 543)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox19.TabIndex = 77
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(327, 573)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox20.TabIndex = 77
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(327, 603)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox21.TabIndex = 78
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.Appearance = System.Windows.Forms.Appearance.Button
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(385, 72)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(43, 26)
+        Me.CheckBox1.TabIndex = 8
+        Me.CheckBox1.Text = "נעול"
+        Me.CheckBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(960, 687)
+        Me.ClientSize = New System.Drawing.Size(957, 754)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.Label44)
         Me.Controls.Add(Me.Label43)
         Me.Controls.Add(Me.CountTASKS)
         Me.Controls.Add(Me.CRITERION)
@@ -1106,4 +1321,27 @@ Partial Class Form1
     Friend WithEvents CRITERION As Windows.Forms.Label
     Friend WithEvents CountTASKS As Windows.Forms.Label
     Friend WithEvents Label43 As Windows.Forms.Label
+    Friend WithEvents Label44 As Windows.Forms.Label
+    Friend WithEvents TextBox21 As Windows.Forms.TextBox
+    Friend WithEvents TextBox20 As Windows.Forms.TextBox
+    Friend WithEvents TextBox19 As Windows.Forms.TextBox
+    Friend WithEvents TextBox18 As Windows.Forms.TextBox
+    Friend WithEvents TextBox17 As Windows.Forms.TextBox
+    Friend WithEvents TextBox1 As Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As Windows.Forms.TextBox
+    Friend WithEvents TextBox3 As Windows.Forms.TextBox
+    Friend WithEvents TextBox4 As Windows.Forms.TextBox
+    Friend WithEvents TextBox5 As Windows.Forms.TextBox
+    Friend WithEvents TextBox6 As Windows.Forms.TextBox
+    Friend WithEvents TextBox7 As Windows.Forms.TextBox
+    Friend WithEvents TextBox8 As Windows.Forms.TextBox
+    Friend WithEvents TextBox9 As Windows.Forms.TextBox
+    Friend WithEvents TextBox10 As Windows.Forms.TextBox
+    Friend WithEvents TextBox11 As Windows.Forms.TextBox
+    Friend WithEvents TextBox12 As Windows.Forms.TextBox
+    Friend WithEvents TextBox13 As Windows.Forms.TextBox
+    Friend WithEvents TextBox14 As Windows.Forms.TextBox
+    Friend WithEvents TextBox15 As Windows.Forms.TextBox
+    Friend WithEvents TextBox16 As Windows.Forms.TextBox
+    Friend WithEvents CheckBox1 As Windows.Forms.CheckBox
 End Class
