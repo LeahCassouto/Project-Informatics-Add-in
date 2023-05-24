@@ -24,6 +24,7 @@ Public Class ThisAddIn
     Public C20_LargeTotalSlack As Integer
     Public C21_NegativeSlack As Integer
 
+    Public happy As String
     Public Sub SetupGrades(ByVal pj As Microsoft.Office.Interop.MSProject.Project)
         Dim project As Microsoft.Office.Interop.MSProject.Project
         Dim x_task As Microsoft.Office.Interop.MSProject.Task
