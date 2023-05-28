@@ -184,4 +184,8 @@ Public Class Form1
         Else CheckBox1.Text = "לא נעול"
         End If
     End Sub
+
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+
+    End Sub
 End Class
