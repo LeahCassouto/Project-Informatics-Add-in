@@ -26,6 +26,11 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -87,11 +92,6 @@ Partial Class Form1
         Me.Labelper19 = New System.Windows.Forms.Label()
         Me.Labelper20 = New System.Windows.Forms.Label()
         Me.Labelper21 = New System.Windows.Forms.Label()
-        Me.CRITERION = New System.Windows.Forms.Label()
-        Me.CountTASKS = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -107,12 +107,13 @@ Partial Class Form1
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.CRITERION = New System.Windows.Forms.Label()
+        Me.CountTASKS = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.lockLimit = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -160,7 +161,6 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox19, 3, 18)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox18, 3, 17)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox17, 3, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 3, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label19, 0, 9)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label3, 0, 1)
@@ -240,7 +240,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox15, 3, 14)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox16, 3, 15)
         Me.TableLayoutPanel1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 104)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 111)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TableLayoutPanel1.RowCount = 21
@@ -267,6 +267,41 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(844, 631)
         Me.TableLayoutPanel1.TabIndex = 2
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(327, 603)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox21.TabIndex = 78
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(327, 573)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox20.TabIndex = 77
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(327, 543)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox19.TabIndex = 77
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(327, 513)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox18.TabIndex = 77
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(327, 483)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(51, 26)
+        Me.TextBox17.TabIndex = 77
         '
         'Label19
         '
@@ -1034,53 +1069,6 @@ Partial Class Form1
         Me.Labelper21.TabIndex = 61
         Me.Labelper21.Text = "LabelPer21"
         '
-        'CRITERION
-        '
-        Me.CRITERION.AutoSize = True
-        Me.CRITERION.Font = New System.Drawing.Font("Varela Round", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CRITERION.Location = New System.Drawing.Point(712, 31)
-        Me.CRITERION.Name = "CRITERION"
-        Me.CRITERION.Size = New System.Drawing.Size(110, 24)
-        Me.CRITERION.TabIndex = 3
-        Me.CRITERION.Text = "קריטריונים"
-        '
-        'CountTASKS
-        '
-        Me.CountTASKS.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CountTASKS.Location = New System.Drawing.Point(548, 14)
-        Me.CountTASKS.Name = "CountTASKS"
-        Me.CountTASKS.Size = New System.Drawing.Size(85, 53)
-        Me.CountTASKS.TabIndex = 4
-        Me.CountTASKS.Text = "מספר פעולות"
-        Me.CountTASKS.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label43
-        '
-        Me.Label43.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(457, 31)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(85, 21)
-        Me.Label43.TabIndex = 5
-        Me.Label43.Text = "אחוז"
-        Me.Label43.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label44
-        '
-        Me.Label44.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(366, 32)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(85, 21)
-        Me.Label44.TabIndex = 6
-        Me.Label44.Text = "גבול"
-        Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(327, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox1.TabIndex = 7
-        '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(327, 33)
@@ -1186,58 +1174,87 @@ Partial Class Form1
         Me.TextBox16.Size = New System.Drawing.Size(51, 26)
         Me.TextBox16.TabIndex = 76
         '
-        'TextBox17
+        'CRITERION
         '
-        Me.TextBox17.Location = New System.Drawing.Point(327, 483)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox17.TabIndex = 77
+        Me.CRITERION.AutoSize = True
+        Me.CRITERION.Font = New System.Drawing.Font("Varela Round", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CRITERION.Location = New System.Drawing.Point(712, 31)
+        Me.CRITERION.Name = "CRITERION"
+        Me.CRITERION.Size = New System.Drawing.Size(110, 24)
+        Me.CRITERION.TabIndex = 3
+        Me.CRITERION.Text = "קריטריונים"
         '
-        'TextBox18
+        'CountTASKS
         '
-        Me.TextBox18.Location = New System.Drawing.Point(327, 513)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox18.TabIndex = 77
+        Me.CountTASKS.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CountTASKS.Location = New System.Drawing.Point(548, 14)
+        Me.CountTASKS.Name = "CountTASKS"
+        Me.CountTASKS.Size = New System.Drawing.Size(85, 53)
+        Me.CountTASKS.TabIndex = 4
+        Me.CountTASKS.Text = "מספר פעולות"
+        Me.CountTASKS.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'TextBox19
+        'Label43
         '
-        Me.TextBox19.Location = New System.Drawing.Point(327, 543)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox19.TabIndex = 77
+        Me.Label43.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(457, 31)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(85, 21)
+        Me.Label43.TabIndex = 5
+        Me.Label43.Text = "אחוז"
+        Me.Label43.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'TextBox20
+        'Label44
         '
-        Me.TextBox20.Location = New System.Drawing.Point(327, 573)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox20.TabIndex = 77
-        '
-        'TextBox21
-        '
-        Me.TextBox21.Location = New System.Drawing.Point(327, 603)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(51, 26)
-        Me.TextBox21.TabIndex = 78
+        Me.Label44.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(366, 32)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(85, 21)
+        Me.Label44.TabIndex = 6
+        Me.Label44.Text = "גבול"
+        Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'CheckBox1
         '
         Me.CheckBox1.Appearance = System.Windows.Forms.Appearance.Button
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(385, 72)
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(361, 82)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(43, 26)
+        Me.CheckBox1.Size = New System.Drawing.Size(99, 26)
         Me.CheckBox1.TabIndex = 8
-        Me.CheckBox1.Text = "נעול"
+        Me.CheckBox1.Text = "לשנות הערכים"
         Me.CheckBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'lockLimit
+        '
+        Me.lockLimit.AutoSize = True
+        Me.lockLimit.Location = New System.Drawing.Point(381, 63)
+        Me.lockLimit.Name = "lockLimit"
+        Me.lockLimit.Size = New System.Drawing.Size(76, 16)
+        Me.lockLimit.TabIndex = 9
+        Me.lockLimit.Text = "Lock Status"
+        Me.lockLimit.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(304, 63)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(55, 16)
+        Me.Label45.TabIndex = 10
+        Me.Label45.Text = "Label45"
+        Me.Label45.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(957, 754)
+        Me.Controls.Add(Me.Label45)
+        Me.Controls.Add(Me.lockLimit)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label44)
         Me.Controls.Add(Me.Label43)
@@ -1327,7 +1344,6 @@ Partial Class Form1
     Friend WithEvents TextBox19 As Windows.Forms.TextBox
     Friend WithEvents TextBox18 As Windows.Forms.TextBox
     Friend WithEvents TextBox17 As Windows.Forms.TextBox
-    Friend WithEvents TextBox1 As Windows.Forms.TextBox
     Friend WithEvents TextBox2 As Windows.Forms.TextBox
     Friend WithEvents TextBox3 As Windows.Forms.TextBox
     Friend WithEvents TextBox4 As Windows.Forms.TextBox
@@ -1344,4 +1360,6 @@ Partial Class Form1
     Friend WithEvents TextBox15 As Windows.Forms.TextBox
     Friend WithEvents TextBox16 As Windows.Forms.TextBox
     Friend WithEvents CheckBox1 As Windows.Forms.CheckBox
+    Friend WithEvents lockLimit As Windows.Forms.Label
+    Friend WithEvents Label45 As Windows.Forms.Label
 End Class

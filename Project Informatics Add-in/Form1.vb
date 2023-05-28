@@ -1,7 +1,10 @@
 ﻿Imports System.Runtime.Remoting
+Imports System.Windows.Forms
 Imports Microsoft.Office.Tools.Ribbon
 
 Public Class Form1
+
+    Public Limits(20) As Double
 
     Private Sub Form1_Activated(sender As Object, e As EventArgs) Handles Me.Load
 
@@ -49,6 +52,8 @@ Public Class Form1
         Label40.Text = CStr(Globals.ThisAddIn.C20_LargeTotalSlack) '20
         Label42.Text = CStr(Globals.ThisAddIn.C21_NegativeSlack) '21
 
+
+
         If Globals.ThisAddIn.C1_Tasks <> 0 Then
             Labelper1.Text = "100%"
             Labelper2.Text = CStr(Math.Round((Globals.ThisAddIn.C2_Tasksover25Days / Globals.ThisAddIn.C1_Tasks) * 100)) & "%"
@@ -94,7 +99,6 @@ Public Class Form1
             Labelper20.Text = "0"
             Labelper21.Text = "0"
         End If
-        Dim Limits(20) As Double
         'תזכורת LIMITS(1) הוא עבר השני במערך
         Limits(1) = 0.15 '2
         Limits(2) = 0 '3
@@ -133,7 +137,8 @@ Public Class Form1
         TextBox19.Text = FormatPercent(Limits(18), 0)
         TextBox20.Text = FormatPercent(Limits(19), 0)
         TextBox21.Text = FormatPercent(Limits(20), 0)
-
+        CheckBox1.Checked = False
+        CheckBox1.Text = "לפתוח"
 
     End Sub
 
@@ -180,8 +185,65 @@ Public Class Form1
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If CheckBox1.Checked Then
-            CheckBox1.Text = "נעול לשינוים"
-        Else CheckBox1.Text = "לא נעול"
+            CheckBox1.Text = "לנעול"
+            lockLimit.Text = "פתוח לשינוים"
+        Else
+            CheckBox1.Text = "לפתוח"
+            lockLimit.Text = "נעול לשינוים"
+
+        End If
+        TextBox2.Enabled = CheckBox1.Checked
+        TextBox3.Enabled = CheckBox1.Checked
+        TextBox4.Enabled = CheckBox1.Checked
+        TextBox5.Enabled = CheckBox1.Checked
+        TextBox6.Enabled = CheckBox1.Checked
+        TextBox7.Enabled = CheckBox1.Checked
+        TextBox8.Enabled = CheckBox1.Checked
+        TextBox9.Enabled = CheckBox1.Checked
+        TextBox10.Enabled = CheckBox1.Checked
+        TextBox11.Enabled = CheckBox1.Checked
+        TextBox12.Enabled = CheckBox1.Checked
+        TextBox13.Enabled = CheckBox1.Checked
+        TextBox14.Enabled = CheckBox1.Checked
+        TextBox15.Enabled = CheckBox1.Checked
+        TextBox16.Enabled = CheckBox1.Checked
+        TextBox17.Enabled = CheckBox1.Checked
+        TextBox18.Enabled = CheckBox1.Checked
+        TextBox19.Enabled = CheckBox1.Checked
+        TextBox20.Enabled = CheckBox1.Checked
+        TextBox21.Enabled = CheckBox1.Checked
+
+    End Sub
+    'Private Function TextBox_Check(ByVal t As String)
+    '    If t <> String.Empty Then
+    '        Dim TypedNumber As String = t
+    '        Dim NumberRegex As String = "^[0-9]+\.?[0-9]*$"
+    '        If Not System.Text.RegularExpressions.Regex.Match(TypedNumber, NumberRegex).Success Then
+    '            t = t.Remove(t.Length - 1, 1)
+    '        End If
+
+    '    End If
+    'End Function
+    Private Sub TextBox_Leave(sender As Object, e As EventArgs) Handles TextBox21.Leave, TextBox20.Leave, TextBox19.Leave, TextBox18.Leave, TextBox17.Leave, TextBox16.Leave, TextBox15.Leave, TextBox14.Leave, TextBox13.Leave, TextBox12.Leave, TextBox11.Leave, TextBox10.Leave, TextBox9.Leave, TextBox8.Leave, TextBox7.Leave, TextBox6.Leave, TextBox5.Leave, TextBox4.Leave, TextBox3.Leave, TextBox2.Leave
+        Dim i As Integer = CInt(sender.name.ToString.Remove(0, 7)) - 1
+        If IsNumeric(CInt(Text.ToString.TrimEnd("%"))) Then
+
+            If CDbl(sender.Text.ToString.TrimEnd("%")) > 1 Then
+                Limits(i) = (CDbl(sender.Text.ToString.TrimEnd("%")) / 100)
+            ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) <= 1 And CDbl(sender.Text.ToString.TrimEnd("%")) >= 0 Then
+                Limits(i) = CDbl(sender.Text.ToString.TrimEnd("%"))
+            ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) < 0 Then
+                MsgBox("מספר לא יכול להיות שלילי")
+                sender.text = FormatPercent(Limits(i), 0)
+                Exit Sub
+            End If
+            sender.text = FormatPercent(Limits(i), 0)
+            MsgBox("Limits(" & i & ")=" & Limits(i) & "  and " & sender.name & ".text = " & sender.text & "")
+        Else
+            MsgBox("השדה רק יכול לקבל מספרים")
+            sender.text = FormatPercent(Limits(i), 0)
         End If
     End Sub
+
+
 End Class
