@@ -26,6 +26,12 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label58 = New System.Windows.Forms.Label()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.TextBox19 = New System.Windows.Forms.TextBox()
@@ -107,13 +113,27 @@ Partial Class Form1
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.Diff2 = New System.Windows.Forms.Label()
+        Me.Diff3 = New System.Windows.Forms.Label()
+        Me.Diff4 = New System.Windows.Forms.Label()
+        Me.Diff5 = New System.Windows.Forms.Label()
+        Me.Diff6 = New System.Windows.Forms.Label()
+        Me.Dif7 = New System.Windows.Forms.Label()
+        Me.Diff8 = New System.Windows.Forms.Label()
+        Me.Diff9 = New System.Windows.Forms.Label()
+        Me.Diff10 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
         Me.CRITERION = New System.Windows.Forms.Label()
         Me.CountTASKS = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.lockLimit = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Difference = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -156,6 +176,12 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label64, 4, 20)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label63, 4, 19)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label62, 4, 18)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label60, 4, 16)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label59, 4, 15)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label58, 4, 14)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox21, 3, 20)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox20, 3, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox19, 3, 18)
@@ -239,6 +265,20 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox14, 3, 13)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox15, 3, 14)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox16, 3, 15)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff2, 4, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff3, 4, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff4, 4, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff5, 4, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff6, 4, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.Dif7, 4, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff8, 4, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff9, 4, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.Diff10, 4, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label54, 4, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label55, 4, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label56, 4, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label57, 4, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label61, 4, 17)
         Me.TableLayoutPanel1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 111)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -267,6 +307,60 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(844, 631)
         Me.TableLayoutPanel1.TabIndex = 2
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Location = New System.Drawing.Point(256, 600)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(65, 18)
+        Me.Label64.TabIndex = 95
+        Me.Label64.Text = "Label64"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Location = New System.Drawing.Point(256, 570)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(65, 18)
+        Me.Label63.TabIndex = 95
+        Me.Label63.Text = "Label63"
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(256, 540)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(65, 18)
+        Me.Label62.TabIndex = 94
+        Me.Label62.Text = "Label62"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(256, 480)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(65, 18)
+        Me.Label60.TabIndex = 92
+        Me.Label60.Text = "Label60"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(256, 450)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(65, 18)
+        Me.Label59.TabIndex = 92
+        Me.Label59.Text = "Label59"
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(256, 420)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(65, 18)
+        Me.Label58.TabIndex = 92
+        Me.Label58.Text = "Label58"
         '
         'TextBox21
         '
@@ -1174,6 +1268,132 @@ Partial Class Form1
         Me.TextBox16.Size = New System.Drawing.Size(51, 26)
         Me.TextBox16.TabIndex = 76
         '
+        'Diff2
+        '
+        Me.Diff2.AutoSize = True
+        Me.Diff2.Location = New System.Drawing.Point(277, 30)
+        Me.Diff2.Name = "Diff2"
+        Me.Diff2.Size = New System.Drawing.Size(44, 18)
+        Me.Diff2.TabIndex = 79
+        Me.Diff2.Text = "Diff2"
+        '
+        'Diff3
+        '
+        Me.Diff3.AutoSize = True
+        Me.Diff3.Location = New System.Drawing.Point(277, 60)
+        Me.Diff3.Name = "Diff3"
+        Me.Diff3.Size = New System.Drawing.Size(44, 18)
+        Me.Diff3.TabIndex = 80
+        Me.Diff3.Text = "Diff3"
+        '
+        'Diff4
+        '
+        Me.Diff4.AutoSize = True
+        Me.Diff4.Location = New System.Drawing.Point(277, 90)
+        Me.Diff4.Name = "Diff4"
+        Me.Diff4.Size = New System.Drawing.Size(44, 18)
+        Me.Diff4.TabIndex = 81
+        Me.Diff4.Text = "Diff4"
+        '
+        'Diff5
+        '
+        Me.Diff5.AutoSize = True
+        Me.Diff5.Location = New System.Drawing.Point(277, 120)
+        Me.Diff5.Name = "Diff5"
+        Me.Diff5.Size = New System.Drawing.Size(44, 18)
+        Me.Diff5.TabIndex = 82
+        Me.Diff5.Text = "Diff5"
+        '
+        'Diff6
+        '
+        Me.Diff6.AutoSize = True
+        Me.Diff6.Location = New System.Drawing.Point(277, 150)
+        Me.Diff6.Name = "Diff6"
+        Me.Diff6.Size = New System.Drawing.Size(44, 18)
+        Me.Diff6.TabIndex = 83
+        Me.Diff6.Text = "Diff6"
+        '
+        'Dif7
+        '
+        Me.Dif7.AutoSize = True
+        Me.Dif7.Location = New System.Drawing.Point(277, 180)
+        Me.Dif7.Name = "Dif7"
+        Me.Dif7.Size = New System.Drawing.Size(44, 18)
+        Me.Dif7.TabIndex = 84
+        Me.Dif7.Text = "Diff7"
+        '
+        'Diff8
+        '
+        Me.Diff8.AutoSize = True
+        Me.Diff8.Location = New System.Drawing.Point(277, 210)
+        Me.Diff8.Name = "Diff8"
+        Me.Diff8.Size = New System.Drawing.Size(44, 18)
+        Me.Diff8.TabIndex = 85
+        Me.Diff8.Text = "Diff8"
+        '
+        'Diff9
+        '
+        Me.Diff9.AutoSize = True
+        Me.Diff9.Location = New System.Drawing.Point(277, 240)
+        Me.Diff9.Name = "Diff9"
+        Me.Diff9.Size = New System.Drawing.Size(44, 18)
+        Me.Diff9.TabIndex = 86
+        Me.Diff9.Text = "Diff9"
+        '
+        'Diff10
+        '
+        Me.Diff10.AutoSize = True
+        Me.Diff10.Location = New System.Drawing.Point(268, 270)
+        Me.Diff10.Name = "Diff10"
+        Me.Diff10.Size = New System.Drawing.Size(53, 18)
+        Me.Diff10.TabIndex = 87
+        Me.Diff10.Text = "Diff10"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(256, 300)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(65, 18)
+        Me.Label54.TabIndex = 88
+        Me.Label54.Text = "Label54"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(256, 330)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(65, 18)
+        Me.Label55.TabIndex = 89
+        Me.Label55.Text = "Label55"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(256, 360)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(65, 18)
+        Me.Label56.TabIndex = 90
+        Me.Label56.Text = "Label56"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(256, 390)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(65, 18)
+        Me.Label57.TabIndex = 91
+        Me.Label57.Text = "Label57"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(256, 510)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(65, 18)
+        Me.Label61.TabIndex = 93
+        Me.Label61.Text = "Label61"
+        '
         'CRITERION
         '
         Me.CRITERION.AutoSize = True
@@ -1231,29 +1451,29 @@ Partial Class Form1
         'lockLimit
         '
         Me.lockLimit.AutoSize = True
-        Me.lockLimit.Location = New System.Drawing.Point(381, 63)
+        Me.lockLimit.Location = New System.Drawing.Point(375, 63)
         Me.lockLimit.Name = "lockLimit"
         Me.lockLimit.Size = New System.Drawing.Size(76, 16)
         Me.lockLimit.TabIndex = 9
         Me.lockLimit.Text = "Lock Status"
         Me.lockLimit.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Label45
+        'Difference
         '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(304, 63)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(55, 16)
-        Me.Label45.TabIndex = 10
-        Me.Label45.Text = "Label45"
-        Me.Label45.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Difference.Font = New System.Drawing.Font("Varela Round", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Difference.Location = New System.Drawing.Point(291, 34)
+        Me.Difference.Name = "Difference"
+        Me.Difference.Size = New System.Drawing.Size(85, 21)
+        Me.Difference.TabIndex = 10
+        Me.Difference.Text = "הפרש"
+        Me.Difference.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(957, 754)
-        Me.Controls.Add(Me.Label45)
+        Me.Controls.Add(Me.Difference)
         Me.Controls.Add(Me.lockLimit)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label44)
@@ -1361,5 +1581,25 @@ Partial Class Form1
     Friend WithEvents TextBox16 As Windows.Forms.TextBox
     Friend WithEvents CheckBox1 As Windows.Forms.CheckBox
     Friend WithEvents lockLimit As Windows.Forms.Label
-    Friend WithEvents Label45 As Windows.Forms.Label
+    Friend WithEvents Diff2 As Windows.Forms.Label
+    Friend WithEvents Diff3 As Windows.Forms.Label
+    Friend WithEvents Diff4 As Windows.Forms.Label
+    Friend WithEvents Diff5 As Windows.Forms.Label
+    Friend WithEvents Difference As Windows.Forms.Label
+    Friend WithEvents Label64 As Windows.Forms.Label
+    Friend WithEvents Label63 As Windows.Forms.Label
+    Friend WithEvents Label62 As Windows.Forms.Label
+    Friend WithEvents Label60 As Windows.Forms.Label
+    Friend WithEvents Label59 As Windows.Forms.Label
+    Friend WithEvents Label58 As Windows.Forms.Label
+    Friend WithEvents Diff6 As Windows.Forms.Label
+    Friend WithEvents Dif7 As Windows.Forms.Label
+    Friend WithEvents Diff8 As Windows.Forms.Label
+    Friend WithEvents Diff9 As Windows.Forms.Label
+    Friend WithEvents Diff10 As Windows.Forms.Label
+    Friend WithEvents Label54 As Windows.Forms.Label
+    Friend WithEvents Label55 As Windows.Forms.Label
+    Friend WithEvents Label56 As Windows.Forms.Label
+    Friend WithEvents Label57 As Windows.Forms.Label
+    Friend WithEvents Label61 As Windows.Forms.Label
 End Class
