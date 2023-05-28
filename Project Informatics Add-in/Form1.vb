@@ -245,9 +245,7 @@ Public Class Form1
         '    sender.text = FormatPercent(Limits(i), 0)
         'End If
     End Sub
-    Private Sub Textbox_entered(Sender As Object, e As EventArgs) Handles TextBox21.Enter,
-            Fi 
-    End Sub
+
     Private Sub recalculateDiff(Sender As Object, e As EventArgs) Handles TextBox21.TextChanged, TextBox20.TextChanged, TextBox19.TextChanged, TextBox18.TextChanged, TextBox17.TextChanged, TextBox16.TextChanged, TextBox15.TextChanged, TextBox14.TextChanged, TextBox13.TextChanged, TextBox12.TextChanged, TextBox11.TextChanged, TextBox10.TextChanged, TextBox9.TextChanged, TextBox8.TextChanged, TextBox7.TextChanged, TextBox6.TextChanged, TextBox5.TextChanged, TextBox4.TextChanged, TextBox3.TextChanged, TextBox2.TextChanged, Labelper21.TextChanged, Labelper20.TextChanged, Labelper19.TextChanged, Labelper18.TextChanged, Labelper17.TextChanged, Labelper16.TextChanged, Labelper15.TextChanged, Labelper14.TextChanged, Labelper13.TextChanged, Labelper12.TextChanged, Labelper11.TextChanged, Labelper10.TextChanged, Labelper9.TextChanged, LabelPer8.TextChanged, Labelper7.TextChanged, LabelPer6.TextChanged, LabelPer5.TextChanged, Labelper4.TextChanged, Labelper3.TextChanged, Labelper2.TextChanged
         '
         ' להבין איזה כותרת של הפשרשים צריך לעדכן 
