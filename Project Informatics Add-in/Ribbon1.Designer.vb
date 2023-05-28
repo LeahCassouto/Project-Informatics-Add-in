@@ -43,15 +43,21 @@
     Private Sub InitializeComponent()
         Me.Tab1 = Me.Factory.CreateRibbonTab
         Me.Group1 = Me.Factory.CreateRibbonGroup
+        Me.Group2 = Me.Factory.CreateRibbonGroup
+        Me.FILENAME = Me.Factory.CreateRibbonLabel
         Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Button3 = Me.Factory.CreateRibbonButton
+        Me.Button2 = Me.Factory.CreateRibbonButton
         Me.Tab1.SuspendLayout()
         Me.Group1.SuspendLayout()
+        Me.Group2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Tab1
         '
         Me.Tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office
         Me.Tab1.Groups.Add(Me.Group1)
+        Me.Tab1.Groups.Add(Me.Group2)
         Me.Tab1.Label = "Informatics"
         Me.Tab1.Name = "Tab1"
         '
@@ -61,10 +67,39 @@
         Me.Group1.Label = "Quality Parameters"
         Me.Group1.Name = "Group1"
         '
+        'Group2
+        '
+        Me.Group2.Items.Add(Me.Button3)
+        Me.Group2.Items.Add(Me.Button2)
+        Me.Group2.Items.Add(Me.FILENAME)
+        Me.Group2.Label = "להתשמש בקובץ אקסל"
+        Me.Group2.Name = "Group2"
+        '
+        'FILENAME
+        '
+        Me.FILENAME.Label = "קובץ בשיימוש NONE: "
+        Me.FILENAME.Name = "FILENAME"
+        '
         'Button1
         '
+        Me.Button1.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.speed
         Me.Button1.Label = "Project Quality Parameters"
         Me.Button1.Name = "Button1"
+        Me.Button1.ShowImage = True
+        '
+        'Button3
+        '
+        Me.Button3.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.folder
+        Me.Button3.Label = "להשתמש בקובץ קיים"
+        Me.Button3.Name = "Button3"
+        Me.Button3.ShowImage = True
+        '
+        'Button2
+        '
+        Me.Button2.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.file1
+        Me.Button2.Label = "לייצר מחדש"
+        Me.Button2.Name = "Button2"
+        Me.Button2.ShowImage = True
         '
         'Ribbon1
         '
@@ -75,6 +110,8 @@
         Me.Tab1.PerformLayout()
         Me.Group1.ResumeLayout(False)
         Me.Group1.PerformLayout()
+        Me.Group2.ResumeLayout(False)
+        Me.Group2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -82,6 +119,10 @@
     Friend WithEvents Tab1 As Microsoft.Office.Tools.Ribbon.RibbonTab
     Friend WithEvents Group1 As Microsoft.Office.Tools.Ribbon.RibbonGroup
     Friend WithEvents Button1 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Group2 As Microsoft.Office.Tools.Ribbon.RibbonGroup
+    Friend WithEvents Button2 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Button3 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents FILENAME As Microsoft.Office.Tools.Ribbon.RibbonLabel
 End Class
 
 Partial Class ThisRibbonCollection

@@ -1528,20 +1528,11 @@ Partial Class Form1
         '
         'Difference
         '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(304, 63)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(55, 16)
-        Me.Label45.TabIndex = 10
-        Me.Label45.Text = "Label45"
-        Me.Label45.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(957, 754)
-        Me.Controls.Add(Me.Label45)
         Me.Controls.Add(Me.lockLimit)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label44)
