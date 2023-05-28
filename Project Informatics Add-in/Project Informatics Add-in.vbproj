@@ -242,6 +242,9 @@
   <ItemGroup>
     <None Include="Resources\pngtree-vector-lock-icon-png-image_318067.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock open lock shut.jpg" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
