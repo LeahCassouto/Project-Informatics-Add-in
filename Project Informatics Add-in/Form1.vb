@@ -230,16 +230,16 @@ Public Class Form1
         '  If IsNumeric(CInt(Text.ToString.TrimEnd("%"))) Then
 
         If CDbl(sender.Text.ToString.TrimEnd("%")) > 1 Then
-                Limits(i) = (CDbl(sender.Text.ToString.TrimEnd("%")) / 100)
-            ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) <= 1 And CDbl(sender.Text.ToString.TrimEnd("%")) >= 0 Then
-                Limits(i) = CDbl(sender.Text.ToString.TrimEnd("%"))
-            ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) < 0 Then
-                MsgBox("מספר לא יכול להיות שלילי")
-                sender.text = FormatPercent(Limits(i), 0)
-                Exit Sub
-            End If
+            Limits(i) = (CDbl(sender.Text.ToString.TrimEnd("%")) / 100)
+        ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) <= 1 And CDbl(sender.Text.ToString.TrimEnd("%")) >= 0 Then
+            Limits(i) = CDbl(sender.Text.ToString.TrimEnd("%"))
+        ElseIf CDbl(sender.Text.ToString.TrimEnd("%")) < 0 Then
+            MsgBox("מספר לא יכול להיות שלילי")
             sender.text = FormatPercent(Limits(i), 0)
-            MsgBox("Limits(" & i & ")=" & Limits(i) & "  and " & sender.name & ".text = " & sender.text & "")
+            Exit Sub
+        End If
+        sender.text = FormatPercent(Limits(i), 0)
+        MsgBox("Limits(" & i & ")=" & Limits(i) & "  and " & sender.name & ".text = " & sender.text & "")
         'Else
         '    MsgBox("השדה רק יכול לקבל מספרים")
         '    sender.text = FormatPercent(Limits(i), 0)
@@ -256,6 +256,26 @@ Public Class Form1
     End Sub
 
     Private Sub TestCalc(Sender As Object, e As EventArgs) Handles TextBox21.TextChanged, Labelper2.TextChanged
+
+    End Sub
+
+    Private Sub Label45_Click(sender As Object, e As EventArgs) Handles weight.Click
+
+    End Sub
+
+    Private Sub Diff2_Click(sender As Object, e As EventArgs) Handles Diff2.Click
+
+    End Sub
+
+    Private Sub Label45_Click_1(sender As Object, e As EventArgs) Handles we1.Click
+
+    End Sub
+
+    Private Sub Label65_Click(sender As Object, e As EventArgs) Handles we21.Click
+
+    End Sub
+
+    Private Sub Label45_Click_2(sender As Object, e As EventArgs) Handles score.Click
 
     End Sub
 End Class
