@@ -43,11 +43,11 @@
     Private Sub InitializeComponent()
         Me.Tab1 = Me.Factory.CreateRibbonTab
         Me.Group1 = Me.Factory.CreateRibbonGroup
-        Me.Group2 = Me.Factory.CreateRibbonGroup
-        Me.FILENAME = Me.Factory.CreateRibbonLabel
         Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Group2 = Me.Factory.CreateRibbonGroup
         Me.Button3 = Me.Factory.CreateRibbonButton
         Me.Button2 = Me.Factory.CreateRibbonButton
+        Me.FILENAME = Me.Factory.CreateRibbonLabel
         Me.Tab1.SuspendLayout()
         Me.Group1.SuspendLayout()
         Me.Group2.SuspendLayout()
@@ -67,6 +67,13 @@
         Me.Group1.Label = "Quality Parameters"
         Me.Group1.Name = "Group1"
         '
+        'Button1
+        '
+        Me.Button1.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.speed
+        Me.Button1.Label = "Project Quality Parameters"
+        Me.Button1.Name = "Button1"
+        Me.Button1.ShowImage = True
+        '
         'Group2
         '
         Me.Group2.Items.Add(Me.Button3)
@@ -74,18 +81,6 @@
         Me.Group2.Items.Add(Me.FILENAME)
         Me.Group2.Label = "להתשמש בקובץ אקסל"
         Me.Group2.Name = "Group2"
-        '
-        'FILENAME
-        '
-        Me.FILENAME.Label = "קובץ בשיימוש NONE: "
-        Me.FILENAME.Name = "FILENAME"
-        '
-        'Button1
-        '
-        Me.Button1.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.speed
-        Me.Button1.Label = "Project Quality Parameters"
-        Me.Button1.Name = "Button1"
-        Me.Button1.ShowImage = True
         '
         'Button3
         '
@@ -100,6 +95,11 @@
         Me.Button2.Label = "לייצר מחדש"
         Me.Button2.Name = "Button2"
         Me.Button2.ShowImage = True
+        '
+        'FILENAME
+        '
+        Me.FILENAME.Label = "קובץ בשיימוש NONE: "
+        Me.FILENAME.Name = "FILENAME"
         '
         'Ribbon1
         '
