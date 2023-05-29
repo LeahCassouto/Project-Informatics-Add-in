@@ -41,18 +41,38 @@
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.Tab1 = Me.Factory.CreateRibbonTab
+        Me.Group1 = Me.Factory.CreateRibbonGroup
+        Me.Button1 = Me.Factory.CreateRibbonButton
         Me.Group2 = Me.Factory.CreateRibbonGroup
         Me.Button3 = Me.Factory.CreateRibbonButton
         Me.Button2 = Me.Factory.CreateRibbonButton
         Me.FILENAME = Me.Factory.CreateRibbonLabel
-        Me.Group1 = Me.Factory.CreateRibbonGroup
-        Me.Button1 = Me.Factory.CreateRibbonButton
-        Me.Tab1 = Me.Factory.CreateRibbonTab
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.Group2.SuspendLayout()
-        Me.Group1.SuspendLayout()
         Me.Tab1.SuspendLayout()
+        Me.Group1.SuspendLayout()
+        Me.Group2.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'Tab1
+        '
+        Me.Tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office
+        Me.Tab1.Groups.Add(Me.Group1)
+        Me.Tab1.Groups.Add(Me.Group2)
+        Me.Tab1.Label = "Informatics"
+        Me.Tab1.Name = "Tab1"
+        '
+        'Group1
+        '
+        Me.Group1.Items.Add(Me.Button1)
+        Me.Group1.Label = "Quality Parameters"
+        Me.Group1.Name = "Group1"
+        '
+        'Button1
+        '
+        Me.Button1.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.speed
+        Me.Button1.Label = "Project Quality Parameters"
+        Me.Button1.Name = "Button1"
+        Me.Button1.ShowImage = True
         '
         'Group2
         '
@@ -81,50 +101,28 @@
         Me.FILENAME.Label = "קובץ בשיימוש NONE: "
         Me.FILENAME.Name = "FILENAME"
         '
-        'Group1
-        '
-        Me.Group1.Items.Add(Me.Button1)
-        Me.Group1.Label = "Quality Parameters"
-        Me.Group1.Name = "Group1"
-        '
-        'Button1
-        '
-        Me.Button1.Image = Global.Project_Informatics_Add_in.My.Resources.Resources.speed
-        Me.Button1.Label = "Project Quality Parameters"
-        Me.Button1.Name = "Button1"
-        Me.Button1.ShowImage = True
-        '
-        'Tab1
-        '
-        Me.Tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office
-        Me.Tab1.Groups.Add(Me.Group1)
-        Me.Tab1.Groups.Add(Me.Group2)
-        Me.Tab1.Label = "Informatics"
-        Me.Tab1.Name = "Tab1"
-        '
         'Ribbon1
         '
         Me.Name = "Ribbon1"
         Me.RibbonType = "Microsoft.Project.Project"
         Me.Tabs.Add(Me.Tab1)
-        Me.Group2.ResumeLayout(False)
-        Me.Group2.PerformLayout()
-        Me.Group1.ResumeLayout(False)
-        Me.Group1.PerformLayout()
         Me.Tab1.ResumeLayout(False)
         Me.Tab1.PerformLayout()
+        Me.Group1.ResumeLayout(False)
+        Me.Group1.PerformLayout()
+        Me.Group2.ResumeLayout(False)
+        Me.Group2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Group2 As Microsoft.Office.Tools.Ribbon.RibbonGroup
-    Friend WithEvents Button3 As Microsoft.Office.Tools.Ribbon.RibbonButton
-    Friend WithEvents Button2 As Microsoft.Office.Tools.Ribbon.RibbonButton
-    Friend WithEvents FILENAME As Microsoft.Office.Tools.Ribbon.RibbonLabel
+    Friend WithEvents Tab1 As Microsoft.Office.Tools.Ribbon.RibbonTab
     Friend WithEvents Group1 As Microsoft.Office.Tools.Ribbon.RibbonGroup
     Friend WithEvents Button1 As Microsoft.Office.Tools.Ribbon.RibbonButton
-    Friend WithEvents Tab1 As Microsoft.Office.Tools.Ribbon.RibbonTab
-    Friend WithEvents SaveFileDialog1 As Windows.Forms.SaveFileDialog
+    Friend WithEvents Group2 As Microsoft.Office.Tools.Ribbon.RibbonGroup
+    Friend WithEvents Button2 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Button3 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents FILENAME As Microsoft.Office.Tools.Ribbon.RibbonLabel
 End Class
 
 Partial Class ThisRibbonCollection
