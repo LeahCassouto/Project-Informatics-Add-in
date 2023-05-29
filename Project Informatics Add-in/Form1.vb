@@ -257,7 +257,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+    Private Sub Label45_Click(sender As Object, e As EventArgs) Handles Label45.Click
 
     End Sub
 End Class

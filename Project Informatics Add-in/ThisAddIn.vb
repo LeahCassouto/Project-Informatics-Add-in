@@ -59,7 +59,7 @@ Public Class ThisAddIn
             If x_task.Duration > (project.HoursPerDay * 25 * 60) And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C2_Tasksover25Days = Globals.ThisAddIn.C2_Tasksover25Days + 1
 
             '3) C3_Not In days 
-            'NEED TO CREATE \
+            If x_task.Estimated And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C3_Notindays = Globals.ThisAddIn.C3_Notindays + 1
 
             '4) C4_PlannedinPast 
             If x_task.FinishVariance > 0 And x_task.OutlineChildren.Count = 0 Then Globals.ThisAddIn.C4_PlannedinPast = Globals.ThisAddIn.C4_PlannedinPast + 1
