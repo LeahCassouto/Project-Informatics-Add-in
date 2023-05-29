@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,21 +20,18 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.tot1 = New System.Windows.Forms.Label()
-        Me.sc6 = New System.Windows.Forms.Label()
-        Me.sc1 = New System.Windows.Forms.Label()
-        Me.Diff21 = New System.Windows.Forms.Label()
-        Me.Diff20 = New System.Windows.Forms.Label()
-        Me.Diff19 = New System.Windows.Forms.Label()
-        Me.Diff17 = New System.Windows.Forms.Label()
-        Me.Diff16 = New System.Windows.Forms.Label()
-        Me.Diff15 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label58 = New System.Windows.Forms.Label()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.TextBox19 = New System.Windows.Forms.TextBox()
@@ -125,71 +122,11 @@ Partial Class Form1
         Me.Diff8 = New System.Windows.Forms.Label()
         Me.Diff9 = New System.Windows.Forms.Label()
         Me.Diff10 = New System.Windows.Forms.Label()
-        Me.Diff11 = New System.Windows.Forms.Label()
-        Me.Diff12 = New System.Windows.Forms.Label()
-        Me.Diff13 = New System.Windows.Forms.Label()
-        Me.Diff14 = New System.Windows.Forms.Label()
-        Me.Diff18 = New System.Windows.Forms.Label()
-        Me.we2 = New System.Windows.Forms.Label()
-        Me.we3 = New System.Windows.Forms.Label()
-        Me.we4 = New System.Windows.Forms.Label()
-        Me.we5 = New System.Windows.Forms.Label()
-        Me.we6 = New System.Windows.Forms.Label()
-        Me.we7 = New System.Windows.Forms.Label()
-        Me.we8 = New System.Windows.Forms.Label()
-        Me.we9 = New System.Windows.Forms.Label()
-        Me.we10 = New System.Windows.Forms.Label()
-        Me.we12 = New System.Windows.Forms.Label()
-        Me.we11 = New System.Windows.Forms.Label()
-        Me.we13 = New System.Windows.Forms.Label()
-        Me.we14 = New System.Windows.Forms.Label()
-        Me.we15 = New System.Windows.Forms.Label()
-        Me.we16 = New System.Windows.Forms.Label()
-        Me.we17 = New System.Windows.Forms.Label()
-        Me.we18 = New System.Windows.Forms.Label()
-        Me.we19 = New System.Windows.Forms.Label()
-        Me.we20 = New System.Windows.Forms.Label()
-        Me.we1 = New System.Windows.Forms.Label()
-        Me.we21 = New System.Windows.Forms.Label()
-        Me.sc5 = New System.Windows.Forms.Label()
-        Me.sc4 = New System.Windows.Forms.Label()
-        Me.sc3 = New System.Windows.Forms.Label()
-        Me.sc2 = New System.Windows.Forms.Label()
-        Me.sc7 = New System.Windows.Forms.Label()
-        Me.sc8 = New System.Windows.Forms.Label()
-        Me.sc9 = New System.Windows.Forms.Label()
-        Me.sc10 = New System.Windows.Forms.Label()
-        Me.sc11 = New System.Windows.Forms.Label()
-        Me.sc12 = New System.Windows.Forms.Label()
-        Me.sc13 = New System.Windows.Forms.Label()
-        Me.sc14 = New System.Windows.Forms.Label()
-        Me.sc15 = New System.Windows.Forms.Label()
-        Me.sc16 = New System.Windows.Forms.Label()
-        Me.sc17 = New System.Windows.Forms.Label()
-        Me.sc18 = New System.Windows.Forms.Label()
-        Me.sc19 = New System.Windows.Forms.Label()
-        Me.sc20 = New System.Windows.Forms.Label()
-        Me.sc21 = New System.Windows.Forms.Label()
-        Me.tot21 = New System.Windows.Forms.Label()
-        Me.tot20 = New System.Windows.Forms.Label()
-        Me.tot19 = New System.Windows.Forms.Label()
-        Me.tot18 = New System.Windows.Forms.Label()
-        Me.tot17 = New System.Windows.Forms.Label()
-        Me.tot16 = New System.Windows.Forms.Label()
-        Me.tot15 = New System.Windows.Forms.Label()
-        Me.tot14 = New System.Windows.Forms.Label()
-        Me.tot13 = New System.Windows.Forms.Label()
-        Me.tot12 = New System.Windows.Forms.Label()
-        Me.tot11 = New System.Windows.Forms.Label()
-        Me.tot10 = New System.Windows.Forms.Label()
-        Me.tot9 = New System.Windows.Forms.Label()
-        Me.tot8 = New System.Windows.Forms.Label()
-        Me.tot7 = New System.Windows.Forms.Label()
-        Me.tot6 = New System.Windows.Forms.Label()
-        Me.tot5 = New System.Windows.Forms.Label()
-        Me.tot4 = New System.Windows.Forms.Label()
-        Me.tot2 = New System.Windows.Forms.Label()
-        Me.tot3 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
         Me.CRITERION = New System.Windows.Forms.Label()
         Me.CountTASKS = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
@@ -197,9 +134,6 @@ Partial Class Form1
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.lockLimit = New System.Windows.Forms.Label()
         Me.Difference = New System.Windows.Forms.Label()
-        Me.weight = New System.Windows.Forms.Label()
-        Me.score = New System.Windows.Forms.Label()
-        Me.Total = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -237,22 +171,13 @@ Partial Class Form1
         Me.TableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.TableLayoutPanel1.ColumnCount = 8
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.tot1, 7, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc6, 6, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc1, 6, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff21, 4, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff20, 4, 19)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff19, 4, 18)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff17, 4, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff16, 4, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff15, 4, 14)
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 57.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox21, 3, 20)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox20, 3, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox19, 3, 18)
@@ -336,83 +261,8 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox14, 3, 13)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox15, 3, 14)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox16, 3, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff2, 4, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff3, 4, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff4, 4, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff5, 4, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff6, 4, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.Dif7, 4, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff8, 4, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff9, 4, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff10, 4, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff11, 4, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff12, 4, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff13, 4, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff14, 4, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.Diff18, 4, 17)
-        Me.TableLayoutPanel1.Controls.Add(Me.we2, 5, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.we3, 5, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.we4, 5, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.we5, 5, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.we6, 5, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.we7, 5, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.we8, 5, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.we9, 5, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.we10, 5, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.we12, 5, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.we11, 5, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.we13, 5, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.we14, 5, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.we15, 5, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.we16, 5, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.we17, 5, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.we18, 5, 17)
-        Me.TableLayoutPanel1.Controls.Add(Me.we19, 5, 18)
-        Me.TableLayoutPanel1.Controls.Add(Me.we20, 5, 19)
-        Me.TableLayoutPanel1.Controls.Add(Me.we1, 5, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.we21, 5, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc5, 6, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc4, 6, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc3, 6, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc2, 6, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc7, 6, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc8, 6, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc9, 6, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc10, 6, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc11, 6, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc12, 6, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc13, 6, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc14, 6, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc15, 6, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc16, 6, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc17, 6, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc18, 6, 17)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc19, 6, 18)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc20, 6, 19)
-        Me.TableLayoutPanel1.Controls.Add(Me.sc21, 6, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot21, 7, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot20, 7, 19)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot19, 7, 18)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot18, 7, 17)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot17, 7, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot16, 7, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot15, 7, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot14, 7, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot13, 7, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot12, 7, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot11, 7, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot10, 7, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot9, 7, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot8, 7, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot7, 7, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot6, 7, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot5, 7, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot4, 7, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot2, 7, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.tot3, 7, 2)
-        Me.TableLayoutPanel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(44, 90)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TableLayoutPanel1.Font = New System.Drawing.Font("Varela Round", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(58, 111)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TableLayoutPanel1.RowCount = 21
@@ -440,97 +290,64 @@ Partial Class Form1
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(633, 513)
         Me.TableLayoutPanel1.TabIndex = 2
         '
-        'tot1
+        'Label64
         '
-        Me.tot1.AutoSize = True
-        Me.tot1.Location = New System.Drawing.Point(31, 0)
-        Me.tot1.Name = "tot1"
-        Me.tot1.Size = New System.Drawing.Size(27, 15)
-        Me.tot1.TabIndex = 14
-        Me.tot1.Text = "tot1"
+        Me.Label64.AutoSize = True
+        Me.Label64.Location = New System.Drawing.Point(256, 600)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(65, 18)
+        Me.Label64.TabIndex = 95
+        Me.Label64.Text = "Label64"
         '
-        'sc6
+        'Label63
         '
-        Me.sc6.AutoSize = True
-        Me.sc6.Location = New System.Drawing.Point(93, 120)
-        Me.sc6.Name = "sc6"
-        Me.sc6.Size = New System.Drawing.Size(26, 15)
-        Me.sc6.TabIndex = 14
-        Me.sc6.Text = "sc6"
+        Me.Label63.AutoSize = True
+        Me.Label63.Location = New System.Drawing.Point(256, 570)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(65, 18)
+        Me.Label63.TabIndex = 95
+        Me.Label63.Text = "Label63"
         '
-        'sc1
+        'Label62
         '
-        Me.sc1.AutoSize = True
-        Me.sc1.Location = New System.Drawing.Point(93, 0)
-        Me.sc1.Name = "sc1"
-        Me.sc1.Size = New System.Drawing.Size(26, 15)
-        Me.sc1.TabIndex = 13
-        Me.sc1.Text = "sc1"
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(256, 540)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(65, 18)
+        Me.Label62.TabIndex = 94
+        Me.Label62.Text = "Label62"
         '
-        'Diff21
+        'Label60
         '
-        Me.Diff21.AutoSize = True
-        Me.Diff21.Location = New System.Drawing.Point(203, 480)
-        Me.Diff21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff21.Name = "Diff21"
-        Me.Diff21.Size = New System.Drawing.Size(39, 15)
-        Me.Diff21.TabIndex = 95
-        Me.Diff21.Text = "Diff21"
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(256, 480)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(65, 18)
+        Me.Label60.TabIndex = 92
+        Me.Label60.Text = "Label60"
         '
-        'Diff20
+        'Label59
         '
-        Me.Diff20.AutoSize = True
-        Me.Diff20.Location = New System.Drawing.Point(203, 456)
-        Me.Diff20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff20.Name = "Diff20"
-        Me.Diff20.Size = New System.Drawing.Size(39, 15)
-        Me.Diff20.TabIndex = 95
-        Me.Diff20.Text = "Diff20"
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(256, 450)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(65, 18)
+        Me.Label59.TabIndex = 92
+        Me.Label59.Text = "Label59"
         '
-        'Diff19
+        'Label58
         '
-        Me.Diff19.AutoSize = True
-        Me.Diff19.Location = New System.Drawing.Point(203, 432)
-        Me.Diff19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff19.Name = "Diff19"
-        Me.Diff19.Size = New System.Drawing.Size(39, 15)
-        Me.Diff19.TabIndex = 94
-        Me.Diff19.Text = "Diff19"
-        '
-        'Diff17
-        '
-        Me.Diff17.AutoSize = True
-        Me.Diff17.Location = New System.Drawing.Point(203, 384)
-        Me.Diff17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff17.Name = "Diff17"
-        Me.Diff17.Size = New System.Drawing.Size(39, 15)
-        Me.Diff17.TabIndex = 92
-        Me.Diff17.Text = "Diff17"
-        '
-        'Diff16
-        '
-        Me.Diff16.AutoSize = True
-        Me.Diff16.Location = New System.Drawing.Point(203, 360)
-        Me.Diff16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff16.Name = "Diff16"
-        Me.Diff16.Size = New System.Drawing.Size(39, 15)
-        Me.Diff16.TabIndex = 92
-        Me.Diff16.Text = "Diff16"
-        '
-        'Diff15
-        '
-        Me.Diff15.AutoSize = True
-        Me.Diff15.Location = New System.Drawing.Point(203, 336)
-        Me.Diff15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff15.Name = "Diff15"
-        Me.Diff15.Size = New System.Drawing.Size(39, 15)
-        Me.Diff15.TabIndex = 92
-        Me.Diff15.Text = "Diff15"
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(256, 420)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(65, 18)
+        Me.Label58.TabIndex = 92
+        Me.Label58.Text = "Label58"
         '
         'TextBox21
         '
         Me.TextBox21.Location = New System.Drawing.Point(246, 482)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox21.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(39, 21)
         Me.TextBox21.TabIndex = 78
@@ -538,7 +355,7 @@ Partial Class Form1
         'TextBox20
         '
         Me.TextBox20.Location = New System.Drawing.Point(246, 458)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox20.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(39, 21)
         Me.TextBox20.TabIndex = 77
@@ -546,7 +363,7 @@ Partial Class Form1
         'TextBox19
         '
         Me.TextBox19.Location = New System.Drawing.Point(246, 434)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox19.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(39, 21)
         Me.TextBox19.TabIndex = 77
@@ -554,7 +371,7 @@ Partial Class Form1
         'TextBox18
         '
         Me.TextBox18.Location = New System.Drawing.Point(246, 410)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox18.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(39, 21)
         Me.TextBox18.TabIndex = 77
@@ -562,7 +379,7 @@ Partial Class Form1
         'TextBox17
         '
         Me.TextBox17.Location = New System.Drawing.Point(246, 386)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox17.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(39, 21)
         Me.TextBox17.TabIndex = 77
@@ -1397,7 +1214,7 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(246, 26)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(39, 21)
         Me.TextBox2.TabIndex = 62
@@ -1405,7 +1222,7 @@ Partial Class Form1
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(246, 50)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(39, 21)
         Me.TextBox3.TabIndex = 63
@@ -1413,7 +1230,7 @@ Partial Class Form1
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(246, 74)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(39, 21)
         Me.TextBox4.TabIndex = 64
@@ -1421,7 +1238,7 @@ Partial Class Form1
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(246, 98)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(39, 21)
         Me.TextBox5.TabIndex = 65
@@ -1429,7 +1246,7 @@ Partial Class Form1
         'TextBox6
         '
         Me.TextBox6.Location = New System.Drawing.Point(246, 122)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(39, 21)
         Me.TextBox6.TabIndex = 66
@@ -1437,7 +1254,7 @@ Partial Class Form1
         'TextBox7
         '
         Me.TextBox7.Location = New System.Drawing.Point(246, 146)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(39, 21)
         Me.TextBox7.TabIndex = 67
@@ -1445,7 +1262,7 @@ Partial Class Form1
         'TextBox8
         '
         Me.TextBox8.Location = New System.Drawing.Point(246, 170)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(39, 21)
         Me.TextBox8.TabIndex = 68
@@ -1453,7 +1270,7 @@ Partial Class Form1
         'TextBox9
         '
         Me.TextBox9.Location = New System.Drawing.Point(246, 194)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(39, 21)
         Me.TextBox9.TabIndex = 69
@@ -1461,7 +1278,7 @@ Partial Class Form1
         'TextBox10
         '
         Me.TextBox10.Location = New System.Drawing.Point(246, 218)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(39, 21)
         Me.TextBox10.TabIndex = 70
@@ -1469,7 +1286,7 @@ Partial Class Form1
         'TextBox11
         '
         Me.TextBox11.Location = New System.Drawing.Point(246, 242)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(39, 21)
         Me.TextBox11.TabIndex = 71
@@ -1477,7 +1294,7 @@ Partial Class Form1
         'TextBox12
         '
         Me.TextBox12.Location = New System.Drawing.Point(246, 266)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(39, 21)
         Me.TextBox12.TabIndex = 72
@@ -1485,7 +1302,7 @@ Partial Class Form1
         'TextBox13
         '
         Me.TextBox13.Location = New System.Drawing.Point(246, 290)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(39, 21)
         Me.TextBox13.TabIndex = 73
@@ -1493,7 +1310,7 @@ Partial Class Form1
         'TextBox14
         '
         Me.TextBox14.Location = New System.Drawing.Point(246, 314)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(39, 21)
         Me.TextBox14.TabIndex = 74
@@ -1501,7 +1318,7 @@ Partial Class Form1
         'TextBox15
         '
         Me.TextBox15.Location = New System.Drawing.Point(246, 338)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox15.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(39, 21)
         Me.TextBox15.TabIndex = 75
@@ -1509,7 +1326,7 @@ Partial Class Form1
         'TextBox16
         '
         Me.TextBox16.Location = New System.Drawing.Point(246, 362)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox16.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(39, 21)
         Me.TextBox16.TabIndex = 76
@@ -1517,682 +1334,128 @@ Partial Class Form1
         'Diff2
         '
         Me.Diff2.AutoSize = True
-        Me.Diff2.Location = New System.Drawing.Point(210, 24)
-        Me.Diff2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff2.Location = New System.Drawing.Point(277, 30)
         Me.Diff2.Name = "Diff2"
-        Me.Diff2.Size = New System.Drawing.Size(32, 15)
+        Me.Diff2.Size = New System.Drawing.Size(44, 18)
         Me.Diff2.TabIndex = 79
         Me.Diff2.Text = "Diff2"
         '
         'Diff3
         '
         Me.Diff3.AutoSize = True
-        Me.Diff3.Location = New System.Drawing.Point(210, 48)
-        Me.Diff3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff3.Location = New System.Drawing.Point(277, 60)
         Me.Diff3.Name = "Diff3"
-        Me.Diff3.Size = New System.Drawing.Size(32, 15)
+        Me.Diff3.Size = New System.Drawing.Size(44, 18)
         Me.Diff3.TabIndex = 80
         Me.Diff3.Text = "Diff3"
         '
         'Diff4
         '
         Me.Diff4.AutoSize = True
-        Me.Diff4.Location = New System.Drawing.Point(210, 72)
-        Me.Diff4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff4.Location = New System.Drawing.Point(277, 90)
         Me.Diff4.Name = "Diff4"
-        Me.Diff4.Size = New System.Drawing.Size(32, 15)
+        Me.Diff4.Size = New System.Drawing.Size(44, 18)
         Me.Diff4.TabIndex = 81
         Me.Diff4.Text = "Diff4"
         '
         'Diff5
         '
         Me.Diff5.AutoSize = True
-        Me.Diff5.Location = New System.Drawing.Point(210, 96)
-        Me.Diff5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff5.Location = New System.Drawing.Point(277, 120)
         Me.Diff5.Name = "Diff5"
-        Me.Diff5.Size = New System.Drawing.Size(32, 15)
+        Me.Diff5.Size = New System.Drawing.Size(44, 18)
         Me.Diff5.TabIndex = 82
         Me.Diff5.Text = "Diff5"
         '
         'Diff6
         '
         Me.Diff6.AutoSize = True
-        Me.Diff6.Location = New System.Drawing.Point(210, 120)
-        Me.Diff6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff6.Location = New System.Drawing.Point(277, 150)
         Me.Diff6.Name = "Diff6"
-        Me.Diff6.Size = New System.Drawing.Size(32, 15)
+        Me.Diff6.Size = New System.Drawing.Size(44, 18)
         Me.Diff6.TabIndex = 83
         Me.Diff6.Text = "Diff6"
         '
         'Dif7
         '
         Me.Dif7.AutoSize = True
-        Me.Dif7.Location = New System.Drawing.Point(210, 144)
-        Me.Dif7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Dif7.Location = New System.Drawing.Point(277, 180)
         Me.Dif7.Name = "Dif7"
-        Me.Dif7.Size = New System.Drawing.Size(32, 15)
+        Me.Dif7.Size = New System.Drawing.Size(44, 18)
         Me.Dif7.TabIndex = 84
         Me.Dif7.Text = "Diff7"
         '
         'Diff8
         '
         Me.Diff8.AutoSize = True
-        Me.Diff8.Location = New System.Drawing.Point(210, 168)
-        Me.Diff8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff8.Location = New System.Drawing.Point(277, 210)
         Me.Diff8.Name = "Diff8"
-        Me.Diff8.Size = New System.Drawing.Size(32, 15)
+        Me.Diff8.Size = New System.Drawing.Size(44, 18)
         Me.Diff8.TabIndex = 85
         Me.Diff8.Text = "Diff8"
         '
         'Diff9
         '
         Me.Diff9.AutoSize = True
-        Me.Diff9.Location = New System.Drawing.Point(210, 192)
-        Me.Diff9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff9.Location = New System.Drawing.Point(277, 240)
         Me.Diff9.Name = "Diff9"
-        Me.Diff9.Size = New System.Drawing.Size(32, 15)
+        Me.Diff9.Size = New System.Drawing.Size(44, 18)
         Me.Diff9.TabIndex = 86
         Me.Diff9.Text = "Diff9"
         '
         'Diff10
         '
         Me.Diff10.AutoSize = True
-        Me.Diff10.Location = New System.Drawing.Point(203, 216)
-        Me.Diff10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Diff10.Location = New System.Drawing.Point(268, 270)
         Me.Diff10.Name = "Diff10"
-        Me.Diff10.Size = New System.Drawing.Size(39, 15)
+        Me.Diff10.Size = New System.Drawing.Size(53, 18)
         Me.Diff10.TabIndex = 87
         Me.Diff10.Text = "Diff10"
         '
-        'Diff11
-        '
-        Me.Diff11.AutoSize = True
-        Me.Diff11.Location = New System.Drawing.Point(203, 240)
-        Me.Diff11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff11.Name = "Diff11"
-        Me.Diff11.Size = New System.Drawing.Size(39, 15)
-        Me.Diff11.TabIndex = 88
-        Me.Diff11.Text = "Diff11"
-        '
-        'Diff12
-        '
-        Me.Diff12.AutoSize = True
-        Me.Diff12.Location = New System.Drawing.Point(203, 264)
-        Me.Diff12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff12.Name = "Diff12"
-        Me.Diff12.Size = New System.Drawing.Size(39, 15)
-        Me.Diff12.TabIndex = 89
-        Me.Diff12.Text = "Diff12"
-        '
-        'Diff13
-        '
-        Me.Diff13.AutoSize = True
-        Me.Diff13.Location = New System.Drawing.Point(203, 288)
-        Me.Diff13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff13.Name = "Diff13"
-        Me.Diff13.Size = New System.Drawing.Size(39, 15)
-        Me.Diff13.TabIndex = 90
-        Me.Diff13.Text = "Diff13"
-        '
-        'Diff14
-        '
-        Me.Diff14.AutoSize = True
-        Me.Diff14.Location = New System.Drawing.Point(203, 312)
-        Me.Diff14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff14.Name = "Diff14"
-        Me.Diff14.Size = New System.Drawing.Size(39, 15)
-        Me.Diff14.TabIndex = 91
-        Me.Diff14.Text = "Diff14"
-        '
-        'Diff18
-        '
-        Me.Diff18.AutoSize = True
-        Me.Diff18.Location = New System.Drawing.Point(203, 408)
-        Me.Diff18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Diff18.Name = "Diff18"
-        Me.Diff18.Size = New System.Drawing.Size(39, 15)
-        Me.Diff18.TabIndex = 93
-        Me.Diff18.Text = "Diff18"
-        '
-        'we2
-        '
-        Me.we2.AutoSize = True
-        Me.we2.Location = New System.Drawing.Point(150, 24)
-        Me.we2.Name = "we2"
-        Me.we2.Size = New System.Drawing.Size(30, 15)
-        Me.we2.TabIndex = 97
-        Me.we2.Text = "we2"
-        '
-        'we3
-        '
-        Me.we3.AutoSize = True
-        Me.we3.Location = New System.Drawing.Point(150, 48)
-        Me.we3.Name = "we3"
-        Me.we3.Size = New System.Drawing.Size(30, 15)
-        Me.we3.TabIndex = 98
-        Me.we3.Text = "we3"
-        '
-        'we4
-        '
-        Me.we4.AutoSize = True
-        Me.we4.Location = New System.Drawing.Point(150, 72)
-        Me.we4.Name = "we4"
-        Me.we4.Size = New System.Drawing.Size(30, 15)
-        Me.we4.TabIndex = 99
-        Me.we4.Text = "we4"
-        '
-        'we5
-        '
-        Me.we5.AutoSize = True
-        Me.we5.Location = New System.Drawing.Point(150, 96)
-        Me.we5.Name = "we5"
-        Me.we5.Size = New System.Drawing.Size(30, 15)
-        Me.we5.TabIndex = 100
-        Me.we5.Text = "we5"
-        '
-        'we6
-        '
-        Me.we6.AutoSize = True
-        Me.we6.Location = New System.Drawing.Point(150, 120)
-        Me.we6.Name = "we6"
-        Me.we6.Size = New System.Drawing.Size(30, 15)
-        Me.we6.TabIndex = 101
-        Me.we6.Text = "we6"
-        '
-        'we7
-        '
-        Me.we7.AutoSize = True
-        Me.we7.Location = New System.Drawing.Point(150, 144)
-        Me.we7.Name = "we7"
-        Me.we7.Size = New System.Drawing.Size(30, 15)
-        Me.we7.TabIndex = 102
-        Me.we7.Text = "we7"
-        '
-        'we8
-        '
-        Me.we8.AutoSize = True
-        Me.we8.Location = New System.Drawing.Point(150, 168)
-        Me.we8.Name = "we8"
-        Me.we8.Size = New System.Drawing.Size(30, 15)
-        Me.we8.TabIndex = 103
-        Me.we8.Text = "we8"
-        '
-        'we9
-        '
-        Me.we9.AutoSize = True
-        Me.we9.Location = New System.Drawing.Point(150, 192)
-        Me.we9.Name = "we9"
-        Me.we9.Size = New System.Drawing.Size(30, 15)
-        Me.we9.TabIndex = 104
-        Me.we9.Text = "we9"
-        '
-        'we10
-        '
-        Me.we10.AutoSize = True
-        Me.we10.Location = New System.Drawing.Point(143, 216)
-        Me.we10.Name = "we10"
-        Me.we10.Size = New System.Drawing.Size(37, 15)
-        Me.we10.TabIndex = 105
-        Me.we10.Text = "we10"
-        '
-        'we12
-        '
-        Me.we12.AutoSize = True
-        Me.we12.Location = New System.Drawing.Point(143, 264)
-        Me.we12.Name = "we12"
-        Me.we12.Size = New System.Drawing.Size(37, 15)
-        Me.we12.TabIndex = 107
-        Me.we12.Text = "we12"
-        '
-        'we11
-        '
-        Me.we11.AutoSize = True
-        Me.we11.Location = New System.Drawing.Point(143, 240)
-        Me.we11.Name = "we11"
-        Me.we11.Size = New System.Drawing.Size(37, 15)
-        Me.we11.TabIndex = 106
-        Me.we11.Text = "we11"
-        '
-        'we13
-        '
-        Me.we13.AutoSize = True
-        Me.we13.Location = New System.Drawing.Point(143, 288)
-        Me.we13.Name = "we13"
-        Me.we13.Size = New System.Drawing.Size(37, 15)
-        Me.we13.TabIndex = 108
-        Me.we13.Text = "we13"
-        '
-        'we14
-        '
-        Me.we14.AutoSize = True
-        Me.we14.Location = New System.Drawing.Point(143, 312)
-        Me.we14.Name = "we14"
-        Me.we14.Size = New System.Drawing.Size(37, 15)
-        Me.we14.TabIndex = 109
-        Me.we14.Text = "we14"
-        '
-        'we15
-        '
-        Me.we15.AutoSize = True
-        Me.we15.Location = New System.Drawing.Point(143, 336)
-        Me.we15.Name = "we15"
-        Me.we15.Size = New System.Drawing.Size(37, 15)
-        Me.we15.TabIndex = 110
-        Me.we15.Text = "we15"
-        '
-        'we16
-        '
-        Me.we16.AutoSize = True
-        Me.we16.Location = New System.Drawing.Point(143, 360)
-        Me.we16.Name = "we16"
-        Me.we16.Size = New System.Drawing.Size(37, 15)
-        Me.we16.TabIndex = 111
-        Me.we16.Text = "we16"
-        '
-        'we17
-        '
-        Me.we17.AutoSize = True
-        Me.we17.Location = New System.Drawing.Point(143, 384)
-        Me.we17.Name = "we17"
-        Me.we17.Size = New System.Drawing.Size(37, 15)
-        Me.we17.TabIndex = 112
-        Me.we17.Text = "we17"
-        '
-        'we18
-        '
-        Me.we18.AutoSize = True
-        Me.we18.Location = New System.Drawing.Point(143, 408)
-        Me.we18.Name = "we18"
-        Me.we18.Size = New System.Drawing.Size(37, 15)
-        Me.we18.TabIndex = 113
-        Me.we18.Text = "we18"
-        '
-        'we19
-        '
-        Me.we19.AutoSize = True
-        Me.we19.Location = New System.Drawing.Point(143, 432)
-        Me.we19.Name = "we19"
-        Me.we19.Size = New System.Drawing.Size(37, 15)
-        Me.we19.TabIndex = 114
-        Me.we19.Text = "we19"
-        '
-        'we20
-        '
-        Me.we20.AutoSize = True
-        Me.we20.Location = New System.Drawing.Point(143, 456)
-        Me.we20.Name = "we20"
-        Me.we20.Size = New System.Drawing.Size(37, 15)
-        Me.we20.TabIndex = 115
-        Me.we20.Text = "we20"
-        '
-        'we1
-        '
-        Me.we1.AutoSize = True
-        Me.we1.Location = New System.Drawing.Point(150, 0)
-        Me.we1.Name = "we1"
-        Me.we1.Size = New System.Drawing.Size(30, 15)
-        Me.we1.TabIndex = 96
-        Me.we1.Text = "we1"
-        '
-        'we21
-        '
-        Me.we21.AutoSize = True
-        Me.we21.Location = New System.Drawing.Point(143, 480)
-        Me.we21.Name = "we21"
-        Me.we21.Size = New System.Drawing.Size(37, 15)
-        Me.we21.TabIndex = 116
-        Me.we21.Text = "we21"
-        '
-        'sc5
-        '
-        Me.sc5.AutoSize = True
-        Me.sc5.Location = New System.Drawing.Point(93, 96)
-        Me.sc5.Name = "sc5"
-        Me.sc5.Size = New System.Drawing.Size(26, 15)
-        Me.sc5.TabIndex = 120
-        Me.sc5.Text = "sc5"
-        '
-        'sc4
-        '
-        Me.sc4.AutoSize = True
-        Me.sc4.Location = New System.Drawing.Point(93, 72)
-        Me.sc4.Name = "sc4"
-        Me.sc4.Size = New System.Drawing.Size(26, 15)
-        Me.sc4.TabIndex = 119
-        Me.sc4.Text = "sc4"
-        '
-        'sc3
-        '
-        Me.sc3.AutoSize = True
-        Me.sc3.Location = New System.Drawing.Point(93, 48)
-        Me.sc3.Name = "sc3"
-        Me.sc3.Size = New System.Drawing.Size(26, 15)
-        Me.sc3.TabIndex = 118
-        Me.sc3.Text = "sc3"
-        '
-        'sc2
-        '
-        Me.sc2.AutoSize = True
-        Me.sc2.Location = New System.Drawing.Point(93, 24)
-        Me.sc2.Name = "sc2"
-        Me.sc2.Size = New System.Drawing.Size(26, 15)
-        Me.sc2.TabIndex = 117
-        Me.sc2.Text = "sc2"
-        '
-        'sc7
-        '
-        Me.sc7.AutoSize = True
-        Me.sc7.Location = New System.Drawing.Point(93, 144)
-        Me.sc7.Name = "sc7"
-        Me.sc7.Size = New System.Drawing.Size(26, 15)
-        Me.sc7.TabIndex = 121
-        Me.sc7.Text = "sc7"
-        '
-        'sc8
-        '
-        Me.sc8.AutoSize = True
-        Me.sc8.Location = New System.Drawing.Point(93, 168)
-        Me.sc8.Name = "sc8"
-        Me.sc8.Size = New System.Drawing.Size(26, 15)
-        Me.sc8.TabIndex = 122
-        Me.sc8.Text = "sc8"
-        '
-        'sc9
-        '
-        Me.sc9.AutoSize = True
-        Me.sc9.Location = New System.Drawing.Point(93, 192)
-        Me.sc9.Name = "sc9"
-        Me.sc9.Size = New System.Drawing.Size(26, 15)
-        Me.sc9.TabIndex = 123
-        Me.sc9.Text = "sc9"
-        '
-        'sc10
-        '
-        Me.sc10.AutoSize = True
-        Me.sc10.Location = New System.Drawing.Point(86, 216)
-        Me.sc10.Name = "sc10"
-        Me.sc10.Size = New System.Drawing.Size(33, 15)
-        Me.sc10.TabIndex = 124
-        Me.sc10.Text = "sc10"
-        '
-        'sc11
-        '
-        Me.sc11.AutoSize = True
-        Me.sc11.Location = New System.Drawing.Point(86, 240)
-        Me.sc11.Name = "sc11"
-        Me.sc11.Size = New System.Drawing.Size(33, 15)
-        Me.sc11.TabIndex = 125
-        Me.sc11.Text = "sc11"
-        '
-        'sc12
-        '
-        Me.sc12.AutoSize = True
-        Me.sc12.Location = New System.Drawing.Point(86, 264)
-        Me.sc12.Name = "sc12"
-        Me.sc12.Size = New System.Drawing.Size(33, 15)
-        Me.sc12.TabIndex = 126
-        Me.sc12.Text = "sc12"
-        '
-        'sc13
-        '
-        Me.sc13.AutoSize = True
-        Me.sc13.Location = New System.Drawing.Point(86, 288)
-        Me.sc13.Name = "sc13"
-        Me.sc13.Size = New System.Drawing.Size(33, 15)
-        Me.sc13.TabIndex = 127
-        Me.sc13.Text = "sc13"
-        '
-        'sc14
-        '
-        Me.sc14.AutoSize = True
-        Me.sc14.Location = New System.Drawing.Point(86, 312)
-        Me.sc14.Name = "sc14"
-        Me.sc14.Size = New System.Drawing.Size(33, 15)
-        Me.sc14.TabIndex = 128
-        Me.sc14.Text = "sc14"
-        '
-        'sc15
-        '
-        Me.sc15.AutoSize = True
-        Me.sc15.Location = New System.Drawing.Point(86, 336)
-        Me.sc15.Name = "sc15"
-        Me.sc15.Size = New System.Drawing.Size(33, 15)
-        Me.sc15.TabIndex = 129
-        Me.sc15.Text = "sc15"
-        '
-        'sc16
-        '
-        Me.sc16.AutoSize = True
-        Me.sc16.Location = New System.Drawing.Point(86, 360)
-        Me.sc16.Name = "sc16"
-        Me.sc16.Size = New System.Drawing.Size(33, 15)
-        Me.sc16.TabIndex = 130
-        Me.sc16.Text = "sc16"
-        '
-        'sc17
-        '
-        Me.sc17.AutoSize = True
-        Me.sc17.Location = New System.Drawing.Point(86, 384)
-        Me.sc17.Name = "sc17"
-        Me.sc17.Size = New System.Drawing.Size(33, 15)
-        Me.sc17.TabIndex = 131
-        Me.sc17.Text = "sc17"
-        '
-        'sc18
-        '
-        Me.sc18.AutoSize = True
-        Me.sc18.Location = New System.Drawing.Point(86, 408)
-        Me.sc18.Name = "sc18"
-        Me.sc18.Size = New System.Drawing.Size(33, 15)
-        Me.sc18.TabIndex = 132
-        Me.sc18.Text = "sc18"
-        '
-        'sc19
-        '
-        Me.sc19.AutoSize = True
-        Me.sc19.Location = New System.Drawing.Point(86, 432)
-        Me.sc19.Name = "sc19"
-        Me.sc19.Size = New System.Drawing.Size(33, 15)
-        Me.sc19.TabIndex = 133
-        Me.sc19.Text = "sc19"
-        '
-        'sc20
-        '
-        Me.sc20.AutoSize = True
-        Me.sc20.Location = New System.Drawing.Point(86, 456)
-        Me.sc20.Name = "sc20"
-        Me.sc20.Size = New System.Drawing.Size(33, 15)
-        Me.sc20.TabIndex = 134
-        Me.sc20.Text = "sc20"
-        '
-        'sc21
-        '
-        Me.sc21.AutoSize = True
-        Me.sc21.Location = New System.Drawing.Point(86, 480)
-        Me.sc21.Name = "sc21"
-        Me.sc21.Size = New System.Drawing.Size(33, 15)
-        Me.sc21.TabIndex = 135
-        Me.sc21.Text = "sc21"
-        '
-        'tot21
-        '
-        Me.tot21.AutoSize = True
-        Me.tot21.Location = New System.Drawing.Point(24, 480)
-        Me.tot21.Name = "tot21"
-        Me.tot21.Size = New System.Drawing.Size(34, 15)
-        Me.tot21.TabIndex = 155
-        Me.tot21.Text = "tot21"
-        '
-        'tot20
-        '
-        Me.tot20.AutoSize = True
-        Me.tot20.Location = New System.Drawing.Point(24, 456)
-        Me.tot20.Name = "tot20"
-        Me.tot20.Size = New System.Drawing.Size(34, 15)
-        Me.tot20.TabIndex = 154
-        Me.tot20.Text = "tot20"
-        '
-        'tot19
-        '
-        Me.tot19.AutoSize = True
-        Me.tot19.Location = New System.Drawing.Point(24, 432)
-        Me.tot19.Name = "tot19"
-        Me.tot19.Size = New System.Drawing.Size(34, 15)
-        Me.tot19.TabIndex = 153
-        Me.tot19.Text = "tot19"
-        '
-        'tot18
-        '
-        Me.tot18.AutoSize = True
-        Me.tot18.Location = New System.Drawing.Point(24, 408)
-        Me.tot18.Name = "tot18"
-        Me.tot18.Size = New System.Drawing.Size(34, 15)
-        Me.tot18.TabIndex = 152
-        Me.tot18.Text = "tot18"
-        '
-        'tot17
-        '
-        Me.tot17.AutoSize = True
-        Me.tot17.Location = New System.Drawing.Point(24, 384)
-        Me.tot17.Name = "tot17"
-        Me.tot17.Size = New System.Drawing.Size(34, 15)
-        Me.tot17.TabIndex = 151
-        Me.tot17.Text = "tot17"
-        '
-        'tot16
-        '
-        Me.tot16.AutoSize = True
-        Me.tot16.Location = New System.Drawing.Point(24, 360)
-        Me.tot16.Name = "tot16"
-        Me.tot16.Size = New System.Drawing.Size(34, 15)
-        Me.tot16.TabIndex = 150
-        Me.tot16.Text = "tot16"
-        '
-        'tot15
-        '
-        Me.tot15.AutoSize = True
-        Me.tot15.Location = New System.Drawing.Point(24, 336)
-        Me.tot15.Name = "tot15"
-        Me.tot15.Size = New System.Drawing.Size(34, 15)
-        Me.tot15.TabIndex = 149
-        Me.tot15.Text = "tot15"
-        '
-        'tot14
-        '
-        Me.tot14.AutoSize = True
-        Me.tot14.Location = New System.Drawing.Point(24, 312)
-        Me.tot14.Name = "tot14"
-        Me.tot14.Size = New System.Drawing.Size(34, 15)
-        Me.tot14.TabIndex = 148
-        Me.tot14.Text = "tot14"
-        '
-        'tot13
-        '
-        Me.tot13.AutoSize = True
-        Me.tot13.Location = New System.Drawing.Point(24, 288)
-        Me.tot13.Name = "tot13"
-        Me.tot13.Size = New System.Drawing.Size(34, 15)
-        Me.tot13.TabIndex = 147
-        Me.tot13.Text = "tot13"
-        '
-        'tot12
-        '
-        Me.tot12.AutoSize = True
-        Me.tot12.Location = New System.Drawing.Point(24, 264)
-        Me.tot12.Name = "tot12"
-        Me.tot12.Size = New System.Drawing.Size(34, 15)
-        Me.tot12.TabIndex = 146
-        Me.tot12.Text = "tot12"
-        '
-        'tot11
-        '
-        Me.tot11.AutoSize = True
-        Me.tot11.Location = New System.Drawing.Point(24, 240)
-        Me.tot11.Name = "tot11"
-        Me.tot11.Size = New System.Drawing.Size(34, 15)
-        Me.tot11.TabIndex = 145
-        Me.tot11.Text = "tot11"
-        '
-        'tot10
-        '
-        Me.tot10.AutoSize = True
-        Me.tot10.Location = New System.Drawing.Point(24, 216)
-        Me.tot10.Name = "tot10"
-        Me.tot10.Size = New System.Drawing.Size(34, 15)
-        Me.tot10.TabIndex = 144
-        Me.tot10.Text = "tot10"
-        '
-        'tot9
-        '
-        Me.tot9.AutoSize = True
-        Me.tot9.Location = New System.Drawing.Point(31, 192)
-        Me.tot9.Name = "tot9"
-        Me.tot9.Size = New System.Drawing.Size(27, 15)
-        Me.tot9.TabIndex = 143
-        Me.tot9.Text = "tot9"
-        '
-        'tot8
-        '
-        Me.tot8.AutoSize = True
-        Me.tot8.Location = New System.Drawing.Point(31, 168)
-        Me.tot8.Name = "tot8"
-        Me.tot8.Size = New System.Drawing.Size(27, 15)
-        Me.tot8.TabIndex = 142
-        Me.tot8.Text = "tot8"
-        '
-        'tot7
-        '
-        Me.tot7.AutoSize = True
-        Me.tot7.Location = New System.Drawing.Point(31, 144)
-        Me.tot7.Name = "tot7"
-        Me.tot7.Size = New System.Drawing.Size(27, 15)
-        Me.tot7.TabIndex = 141
-        Me.tot7.Text = "tot7"
-        '
-        'tot6
-        '
-        Me.tot6.AutoSize = True
-        Me.tot6.Location = New System.Drawing.Point(31, 120)
-        Me.tot6.Name = "tot6"
-        Me.tot6.Size = New System.Drawing.Size(27, 15)
-        Me.tot6.TabIndex = 140
-        Me.tot6.Text = "tot6"
-        '
-        'tot5
-        '
-        Me.tot5.AutoSize = True
-        Me.tot5.Location = New System.Drawing.Point(31, 96)
-        Me.tot5.Name = "tot5"
-        Me.tot5.Size = New System.Drawing.Size(27, 15)
-        Me.tot5.TabIndex = 139
-        Me.tot5.Text = "tot5"
-        '
-        'tot4
-        '
-        Me.tot4.AutoSize = True
-        Me.tot4.Location = New System.Drawing.Point(31, 72)
-        Me.tot4.Name = "tot4"
-        Me.tot4.Size = New System.Drawing.Size(27, 15)
-        Me.tot4.TabIndex = 138
-        Me.tot4.Text = "tot4"
-        '
-        'tot2
-        '
-        Me.tot2.AutoSize = True
-        Me.tot2.Location = New System.Drawing.Point(31, 24)
-        Me.tot2.Name = "tot2"
-        Me.tot2.Size = New System.Drawing.Size(27, 15)
-        Me.tot2.TabIndex = 136
-        Me.tot2.Text = "tot2"
-        '
-        'tot3
-        '
-        Me.tot3.AutoSize = True
-        Me.tot3.Location = New System.Drawing.Point(31, 48)
-        Me.tot3.Name = "tot3"
-        Me.tot3.Size = New System.Drawing.Size(27, 15)
-        Me.tot3.TabIndex = 137
-        Me.tot3.Text = "tot3"
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(256, 300)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(65, 18)
+        Me.Label54.TabIndex = 88
+        Me.Label54.Text = "Label54"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(256, 330)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(65, 18)
+        Me.Label55.TabIndex = 89
+        Me.Label55.Text = "Label55"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(256, 360)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(65, 18)
+        Me.Label56.TabIndex = 90
+        Me.Label56.Text = "Label56"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(256, 390)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(65, 18)
+        Me.Label57.TabIndex = 91
+        Me.Label57.Text = "Label57"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(256, 510)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(65, 18)
+        Me.Label61.TabIndex = 93
+        Me.Label61.Text = "Label61"
         '
         'CRITERION
         '
@@ -2245,7 +1508,7 @@ Partial Class Form1
         Me.CheckBox1.Checked = True
         Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBox1.Location = New System.Drawing.Point(271, 67)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(92, 23)
         Me.CheckBox1.TabIndex = 8
@@ -2256,8 +1519,7 @@ Partial Class Form1
         'lockLimit
         '
         Me.lockLimit.AutoSize = True
-        Me.lockLimit.Location = New System.Drawing.Point(281, 51)
-        Me.lockLimit.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lockLimit.Location = New System.Drawing.Point(381, 63)
         Me.lockLimit.Name = "lockLimit"
         Me.lockLimit.Size = New System.Drawing.Size(64, 13)
         Me.lockLimit.TabIndex = 9
@@ -2266,52 +1528,11 @@ Partial Class Form1
         '
         'Difference
         '
-        Me.Difference.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Difference.Location = New System.Drawing.Point(218, 28)
-        Me.Difference.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Difference.Name = "Difference"
-        Me.Difference.Size = New System.Drawing.Size(64, 17)
-        Me.Difference.TabIndex = 10
-        Me.Difference.Text = "הפרש"
-        Me.Difference.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'weight
-        '
-        Me.weight.AutoSize = True
-        Me.weight.Location = New System.Drawing.Point(176, 32)
-        Me.weight.Name = "weight"
-        Me.weight.Size = New System.Drawing.Size(37, 13)
-        Me.weight.TabIndex = 11
-        Me.weight.Text = "משקל"
-        Me.weight.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'score
-        '
-        Me.score.AutoSize = True
-        Me.score.Location = New System.Drawing.Point(120, 32)
-        Me.score.Name = "score"
-        Me.score.Size = New System.Drawing.Size(29, 13)
-        Me.score.TabIndex = 12
-        Me.score.Text = "ציון"
-        '
-        'Total
-        '
-        Me.Total.AutoSize = True
-        Me.Total.Location = New System.Drawing.Point(51, 32)
-        Me.Total.Name = "Total"
-        Me.Total.Size = New System.Drawing.Size(33, 13)
-        Me.Total.TabIndex = 13
-        Me.Total.Text = "סה""כ"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(718, 609)
-        Me.Controls.Add(Me.Total)
-        Me.Controls.Add(Me.score)
-        Me.Controls.Add(Me.weight)
-        Me.Controls.Add(Me.Difference)
+        Me.ClientSize = New System.Drawing.Size(957, 754)
         Me.Controls.Add(Me.lockLimit)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label44)
@@ -2320,7 +1541,7 @@ Partial Class Form1
         Me.Controls.Add(Me.CRITERION)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "Quality Grading"
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -2425,86 +1646,20 @@ Partial Class Form1
     Friend WithEvents Diff4 As Windows.Forms.Label
     Friend WithEvents Diff5 As Windows.Forms.Label
     Friend WithEvents Difference As Windows.Forms.Label
-    Friend WithEvents Diff21 As Windows.Forms.Label
-    Friend WithEvents Diff20 As Windows.Forms.Label
-    Friend WithEvents Diff19 As Windows.Forms.Label
-    Friend WithEvents Diff17 As Windows.Forms.Label
-    Friend WithEvents Diff16 As Windows.Forms.Label
-    Friend WithEvents Diff15 As Windows.Forms.Label
+    Friend WithEvents Label64 As Windows.Forms.Label
+    Friend WithEvents Label63 As Windows.Forms.Label
+    Friend WithEvents Label62 As Windows.Forms.Label
+    Friend WithEvents Label60 As Windows.Forms.Label
+    Friend WithEvents Label59 As Windows.Forms.Label
+    Friend WithEvents Label58 As Windows.Forms.Label
     Friend WithEvents Diff6 As Windows.Forms.Label
     Friend WithEvents Dif7 As Windows.Forms.Label
     Friend WithEvents Diff8 As Windows.Forms.Label
     Friend WithEvents Diff9 As Windows.Forms.Label
     Friend WithEvents Diff10 As Windows.Forms.Label
-    Friend WithEvents Diff11 As Windows.Forms.Label
-    Friend WithEvents Diff12 As Windows.Forms.Label
-    Friend WithEvents Diff13 As Windows.Forms.Label
-    Friend WithEvents Diff14 As Windows.Forms.Label
-    Friend WithEvents Diff18 As Windows.Forms.Label
-    Friend WithEvents weight As Windows.Forms.Label
-    Friend WithEvents we1 As Windows.Forms.Label
-    Friend WithEvents we2 As Windows.Forms.Label
-    Friend WithEvents we3 As Windows.Forms.Label
-    Friend WithEvents we4 As Windows.Forms.Label
-    Friend WithEvents we5 As Windows.Forms.Label
-    Friend WithEvents we6 As Windows.Forms.Label
-    Friend WithEvents we7 As Windows.Forms.Label
-    Friend WithEvents we8 As Windows.Forms.Label
-    Friend WithEvents we9 As Windows.Forms.Label
-    Friend WithEvents we10 As Windows.Forms.Label
-    Friend WithEvents we12 As Windows.Forms.Label
-    Friend WithEvents we11 As Windows.Forms.Label
-    Friend WithEvents we13 As Windows.Forms.Label
-    Friend WithEvents we14 As Windows.Forms.Label
-    Friend WithEvents we15 As Windows.Forms.Label
-    Friend WithEvents we16 As Windows.Forms.Label
-    Friend WithEvents we17 As Windows.Forms.Label
-    Friend WithEvents we18 As Windows.Forms.Label
-    Friend WithEvents we19 As Windows.Forms.Label
-    Friend WithEvents we20 As Windows.Forms.Label
-    Friend WithEvents we21 As Windows.Forms.Label
-    Friend WithEvents score As Windows.Forms.Label
-    Friend WithEvents tot1 As Windows.Forms.Label
-    Friend WithEvents sc6 As Windows.Forms.Label
-    Friend WithEvents sc1 As Windows.Forms.Label
-    Friend WithEvents sc5 As Windows.Forms.Label
-    Friend WithEvents sc4 As Windows.Forms.Label
-    Friend WithEvents sc3 As Windows.Forms.Label
-    Friend WithEvents sc2 As Windows.Forms.Label
-    Friend WithEvents sc7 As Windows.Forms.Label
-    Friend WithEvents sc8 As Windows.Forms.Label
-    Friend WithEvents sc9 As Windows.Forms.Label
-    Friend WithEvents sc10 As Windows.Forms.Label
-    Friend WithEvents sc11 As Windows.Forms.Label
-    Friend WithEvents sc12 As Windows.Forms.Label
-    Friend WithEvents sc13 As Windows.Forms.Label
-    Friend WithEvents sc14 As Windows.Forms.Label
-    Friend WithEvents sc15 As Windows.Forms.Label
-    Friend WithEvents sc16 As Windows.Forms.Label
-    Friend WithEvents sc17 As Windows.Forms.Label
-    Friend WithEvents sc18 As Windows.Forms.Label
-    Friend WithEvents sc19 As Windows.Forms.Label
-    Friend WithEvents sc20 As Windows.Forms.Label
-    Friend WithEvents sc21 As Windows.Forms.Label
-    Friend WithEvents tot21 As Windows.Forms.Label
-    Friend WithEvents tot20 As Windows.Forms.Label
-    Friend WithEvents tot19 As Windows.Forms.Label
-    Friend WithEvents tot18 As Windows.Forms.Label
-    Friend WithEvents tot17 As Windows.Forms.Label
-    Friend WithEvents tot16 As Windows.Forms.Label
-    Friend WithEvents tot15 As Windows.Forms.Label
-    Friend WithEvents tot14 As Windows.Forms.Label
-    Friend WithEvents tot13 As Windows.Forms.Label
-    Friend WithEvents tot12 As Windows.Forms.Label
-    Friend WithEvents tot11 As Windows.Forms.Label
-    Friend WithEvents tot10 As Windows.Forms.Label
-    Friend WithEvents tot9 As Windows.Forms.Label
-    Friend WithEvents tot8 As Windows.Forms.Label
-    Friend WithEvents tot7 As Windows.Forms.Label
-    Friend WithEvents tot6 As Windows.Forms.Label
-    Friend WithEvents tot5 As Windows.Forms.Label
-    Friend WithEvents tot4 As Windows.Forms.Label
-    Friend WithEvents tot2 As Windows.Forms.Label
-    Friend WithEvents tot3 As Windows.Forms.Label
-    Friend WithEvents Total As Windows.Forms.Label
+    Friend WithEvents Label54 As Windows.Forms.Label
+    Friend WithEvents Label55 As Windows.Forms.Label
+    Friend WithEvents Label56 As Windows.Forms.Label
+    Friend WithEvents Label57 As Windows.Forms.Label
+    Friend WithEvents Label61 As Windows.Forms.Label
 End Class
